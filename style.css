@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.cabecalho {
+    display: inline-flex;
+    padding: 35px 370px 35.176px 390px;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 391px;
+    border: 1px solid rgba(0, 0, 0, 0.10);
+    background: var(--Colors-white, #F8F8FF);
+    box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.10);
+}
+
+body {
+    background-color: #e0f3f8;
+}
+
+.menu {
+    background-color: #f7f7fe;
+    width: 519px;
+    height: 36px;
+    top: 52px;
+    left: 1031px;
+}
+
+.botoesHeader {
+    background-color: #f7f7fe;
+    display: flex;
+    width: 519px;
+    height: 36px;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 35px;
+    height: 36px;
+    border: none; 
+}
+
+.tipografiaBotoesHeader {
+    background-color: #f7f7fe;
+    color: var(--Colors-blue1100, #063643);
+    border: none;
+    font-family: Poppins;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    cursor: pointer;
+}
+
+.tipografiaBotoesHeader:hover {
+    background-color: rgba(107, 183, 203, 0.40);
+    border-radius: 10px;
+    color: var(--Colors-blue1100, #063643);
+    border: none;
+    font-family: Poppins;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    cursor: pointer;
+}
+
+.logo {
+    width: 250px;
+    height: 69.824px;
+}

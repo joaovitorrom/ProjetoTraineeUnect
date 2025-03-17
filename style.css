@@ -147,6 +147,107 @@ body {
     position: absolute;
     top: -20px;
 }
+
+/* Carrossel, Primeiro Banner */
+.carrossel{ /* Container do carrossel */
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 1180px;
+    height: 332px;
+    flex-shrink: 0;
+    margin-left: 370px;
+    margin-right: 370px;
+    margin-top: 30px;
+}
+
+.modelBanners{ /* Modelo dos Banners do carrossel */
+    width: 1094.182px;
+    height: 300px;
+    flex-shrink: 0;
+}
+
+.modelTitulo { /* Modelo de títulos do banner */
+    font-family: Poppins;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 0.56px;
+}
+
+.modelTexto { /* Modelo de texto dos banners */
+    font-family: Poppins;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 0.4px;
+}
+
+.modelSaibaMais {
+    display: flex;
+    width: 283px;
+    height: 72px;
+    padding: 10px 5px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    flex-shrink: 0;
+    font-family: Poppins;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+#bannerCarrossel01 {
+    border-radius: 8px;
+    background: #6BB7CB;
+    box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.15);
+}
+
+#tituloCarrossel01 {
+    color: var(--Colors-blue1100, #063643);
+    height: 42px;
+    width: 379px;
+    margin-top: 24px;
+    margin-left: 502px;
+}
+
+#textoCarrossel01 {
+    color: #0F637A;
+    height: 30px;
+    width: 311px;
+    margin-top: 12px;
+    margin-left: 510px;
+    margin-right: 273.18px;
+}
+
+#botaoCarrossel01 {
+    border-radius: 4px;
+    border-color: #00000026;
+    background: #F8F8FF;
+    color: #063643;
+    margin-top: 51px;
+    margin-left: 510.09px;
+    margin-right: 301.09px;
+}
+
+#imagemVacina{
+    display: flex;
+    justify-content: center; /* Centraliza no meio da tela */
+    align-items: center;
+    width: 150px;
+    height: 150px;
+    flex-shrink: 0;
+    margin-top: 93px;
+    margin-left: 112px;
+}
+
+
+/* Carrossel, Primeiro Banner */
+
 footer{
     background-color: #063643   ;
 }

@@ -4,29 +4,25 @@
   padding: 0;
   box-sizing: border-box;
 }
-.cabecalho {
+
+/*Cabeçalho*/
+header {
     display: inline-flex;
-    padding: 35px 370px 35.176px 244.5px;
-    justify-content: flex-end;
-    align-items: center;
-    gap: 391px;
     border: 1px solid rgba(0, 0, 0, 0.10);
     background: var(--Colors-white, #F8F8FF);
     box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.10);
     width: 100%;
 }
 
-body {
-    background-color: #e0f3f8;
+
+.menuHeader {
+    display: inline-flex;
+    padding: 35px 370px 35.176px 390px;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 391px;
 }
 
-.menu {
-    background-color: #f7f7fe;
-    width: 519px;
-    height: 36px;
-    top: 52px;
-    left: 1031px;
-}
 
 .botoesHeader {
     background-color: #f7f7fe;
@@ -70,6 +66,7 @@ body {
 .logo {
     width: 250px;
     height: 69.824px;
+    left: 390px;
 }
 
 .contato{
@@ -82,6 +79,11 @@ body {
     background-color: #F8F8FF; /* Cor para visualizar */
     border: 1px solid #00000026;
     position: relative;
+}
+/*Cabeçalho*/
+
+body {
+    background-color: #e0f3f8;
 }
 
 .titulodiv1{
@@ -148,6 +150,7 @@ body {
 footer{
     background-color: #063643   ;
 }
+
 #rodape{
     max-width: 100%;
 

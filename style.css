@@ -237,7 +237,59 @@ body {
     bottom: 57px;
 }
 
+#imagemPata01 {
+    position: absolute;
+    top: 12px;
+    left: 21px;
+    right: 936.81px;
+    bottom: 152.7px;
+}
 
+#imagemPata02 {
+    position: absolute;
+    top: 132px;
+    left: 256px;
+    right: 710.56px;
+    bottom: 42.53px;
+}
+
+#imagemSombraGato {
+    position: absolute;
+    top: 100px;
+    left: 863px;
+    right: 111.18px;
+    bottom: 4.33px;
+}
+
+#seletorImg01{
+    position: absolute;
+    width: 109px;
+    height: 20px;
+    flex-shrink: 0;
+    left: 492.09px;
+    right: 493.09px;
+    bottom: -32px;
+}
+
+#arrowBack01 {
+    position: absolute;
+    width: 42.909px;
+    height: 40px;
+    flex-shrink: 0;
+    top: 130px;
+    bottom: 130px;
+    right: 1094.18px;
+}
+
+#arrowForward01 {
+    position: absolute;
+    width: 42.909px;
+    height: 40px;
+    flex-shrink: 0;
+    top: 130px;
+    bottom: 130px;
+    left: 1094.18px;
+}
 /* Carrossel, Primeiro Banner */
 
 footer{

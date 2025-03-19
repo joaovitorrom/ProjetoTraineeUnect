@@ -8,30 +8,66 @@
     </head>
     <body>
         <header>
-            <div class="cabecalho">
-                <img src="src/Logo-horizontal.svg" alt="Logo Pindorama">
+            <div class="menuHeader">
+                <img src="assets/images/Logo-horizontal.svg" alt="Logo Pindorama">
             
-                <scan class="botoesHeader">
+                <section class="botoesHeader">
                     <button class="tipografiaBotoesHeader" id="botaoinicio">Início</button>
                     <button class="tipografiaBotoesHeader" id="botaoservicos">Serviços</button>
                     <button class="tipografiaBotoesHeader" id="botaosobre">Sobre nós</button>
                     <button class="tipografiaBotoesHeader" id="botaocontato">Contato</button>
-                </scan>
+                </section>
             </div>
         </header>
         <div class="contato">
-            <h1 class="titulodiv1">Cuidando do Seu Pet com amor e carinho</h1>
+            <h1 class="titulodiv1">Cuidando do Seu Pet com Profissionalismo e Carinho</h1>
             <button class="botaocontato">Entre em contato</button>
-            <img src="src/imagemcachorros1.svg" alt="Cachorros">
-            <img src="src/imagemcachorros2.svg" alt="Cachorros">
-            <img src="src/imagemcachorros3.svg" alt="Cachorros">
+            <div class="imagenscachorros">
+                <img src="assets/images/imagemcachorros11.svg" alt="Cachorros" id="ic1">
+            </div>
+            <img src="assets/images/Waveform.svg" alt="Estilo" id="waveform">
         </div>
-        <div class="carrossel">
-            <h1 class="titulodiv2">Campanhas de vacinação</h1>
-            <p class="textodiv2">Dos dias 19 a 28 de novembro</p>
-            <button class="botaosaibamais">Saiba mais</button>
-            <img src="vacina.svg" alt="Desenho com vacina e patas de cachorro">
-        </div>
+        <div class="carrossel"> <!-- Carrosel --> 
+            <div class="modelBanners" id="bannerCarrossel01"> <!-- Primeiro Banner -->
+                <h1 class="modelTitulo" id="tituloCarrossel01">Campanha de vacinação</h1>
+                <p class="modelTexto" id="textoCarrossel01">Dos dias 19 a 28 de novembro</p>
+                <button class="modelSaibaMais" id="botaoCarrossel01">Saiba mais</button>
+                <img src="assets/images/vacina.png" alt="Imagem da vacina" id="imagemVacina">
+                <img src="assets/images/pata1.png" alt="Pata01" id="imagemPata01">
+                <img src="assets/images/pata2.svg" alt="Pata02" id="imagemPata02">
+                <img src="assets/images/sombraGato.svg" alt="Sombra de um gato" id="imagemSombraGato">
+                <img src="assets/images/seletorImagens_1.svg" alt="Seletor" id="seletorImg01">
+                <img src="assets/images/arrow_back_1.svg" alt="Flecha de Volta" id="arrowBack01">
+                <img src="assets/images/arrow_forward_1.svg" alt="Flecha de Ida" id="arrowForward01">
+            </div> <!-- Primeiro Banner -->
+        </div> <!-- Carrosel --> 
+        
+        <footer>
+            <div class="rodape">
+                <div class="logorodape">
+                    <img src="assets/images/logo.svg" alt="Logo Pindorama">
+                </div>
+                <div class="servicorodape">
+                    <ul class="titulorodape">NOSSOS SERVIÇOS
+                        <li class="rodape1">SOBRE NÓS</li>
+                        <li>CONSULTA VETERINÁRIA</li>
+                        <li>NOSSOS SERVIÇOS</li>
+                    </ul>
+                </div>
+                <div class="instrodape">
+                    <ul class="titulorodape">INSTITUCIONAL
+                        <li class="rodape1">PROGRAMA DE ADOÇÃO</li>
+                        <li>TERMOS DE COMPROMISSO</li>
+                        <li>UNECT JR</li>
+                    </ul>
+                </div>
+                <div class="contatorodape">
+                    <p class="titulorodape" id="contatorodape">NOSSOS CONTATOS</p>
+                    <img src="assets/images/redes.svg" alt="redes">
+                </div>
+            </div>
+            <img src="assets/images/roda.svg" alt="Estilo" id="rodape">
+        </footer>
         <script src="script.js"></script>  <!-- Importa o arquivo de JS -->
     </body>
 </html>

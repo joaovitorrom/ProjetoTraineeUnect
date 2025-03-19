@@ -18,7 +18,7 @@ header {
 
 
 .menuHeader {
-    display: flex;
+    display: inline-flex;
     padding: 35px 370px 35.176px 390px;
     justify-content: flex-end;
     align-items: center;
@@ -75,6 +75,7 @@ header {
     background-color: #F8F8FF; /* Cor para visualizar */
     border: 1px solid #00000026;
     position: relative;
+    margin: auto;
 }
 /*Cabeçalho*/
 
@@ -155,6 +156,7 @@ body {
     margin-left: 370px;
     margin-right: 370px;
     margin-top: 30px;
+    margin: auto;
 }
 
 .modelBanners{ /* Modelo dos Banners do carrossel */

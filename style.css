@@ -184,7 +184,7 @@ body {
     letter-spacing: 0.4px;
 }
 
-.modelSaibaMais {
+.modelSaibaMais { /* Modelo de botões dos banners */
     display: flex;
     width: 283px;
     height: 72px;
@@ -198,8 +198,40 @@ body {
     font-style: normal;
     font-weight: 700;
     line-height: normal;
+    cursor: pointer;
 }
 
+#arrowBack {
+    position: absolute;
+    width: 42.909px;
+    height: 40px;
+    flex-shrink: 0;
+    top: 130px;
+    bottom: 130px;
+    right: 1094.18px;
+}
+
+#arrowForward {
+    position: absolute;
+    width: 42.909px;
+    height: 40px;
+    flex-shrink: 0;
+    top: 130px;
+    bottom: 130px;
+    left: 1094.18px;
+}
+
+#seletor{
+    position: absolute;
+    width: 109px;
+    height: 20px;
+    flex-shrink: 0;
+    left: 492.09px;
+    right: 493.09px;
+    bottom: -32px;
+}
+
+/* Estilo Primeiro Banner */
 #bannerCarrossel01 {
     border-radius: 8px;
     background: #6BB7CB;
@@ -264,37 +296,67 @@ body {
     right: 111.18px;
     bottom: 4.33px;
 }
+/* Estilo Primeiro Banner */
 
-#seletorImg01{
-    position: absolute;
-    width: 109px;
-    height: 20px;
-    flex-shrink: 0;
-    left: 492.09px;
-    right: 493.09px;
-    bottom: -32px;
+/* Estilo Segundo Banner */
+#bannerCarrossel02 {
+    color: #063643;
+    border-radius: 8px;
+    background: url(https://s3-alpha-sig.figma.com/img/5821/4e25/6fc1dafda45401d114a42d25343f1ce6?Expires=1743379200&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=qDepp~NY-o~a8PNd0G2bRN5Pr-FKvnXaLsk9~TzQk2MHjCoMI68C3J~k7GXraT1~aYRueEof4x2jBPtmD-emxdboUn4Q2YsUBF1SPVwDvidkGQCzJUlR21sVppyzEC9s55bcYSb962OYLKGZgV0D~YIhC006ex0tGDQRfDacXngDA4AoXGFe2L~M0iTEkcCTOXlYwXWLEwosocHYbZ2857CTuCFmoZCvC~R7Nqsy29pQ5y7GApuaPbT0QE58FcZ3FIiKeEipxVgcVUJbzbTh3SgKcWX1ADsHImKRQzhNTCD743F6OophPrAsVmJrVc15Sw~w4WHzjb4ql0DfPFt9kg__) lightgray -29.652px -257.215px / 100% 364.667% no-repeat;
+    background-color: #063643;
+    box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.15);
 }
 
-#arrowBack01 {
-    position: absolute;
-    width: 42.909px;
-    height: 40px;
-    flex-shrink: 0;
-    top: 130px;
-    bottom: 130px;
-    right: 1094.18px;
+#tituloCarrossel02 {
+    color: #FFF;
+    margin-top: 24px;
+    margin-left: 64px;
 }
 
-#arrowForward01 {
+#textoCarrossel02 {
     position: absolute;
-    width: 42.909px;
-    height: 40px;
-    flex-shrink: 0;
-    top: 130px;
-    bottom: 130px;
-    left: 1094.18px;
+    color: #FAFDFF;
+    height: 81px;
+    width: 519px;
+    top: 89px;
+    left: 64px;
+    right: 366px;
+    bottom: 144px;
 }
-/* Carrossel, Primeiro Banner */
+
+#botaoCarrossel02 {
+    position: absolute;
+    border-radius: 4px;
+    border-color: #00000026;
+    background: #F8F8FF;
+    color: #063643;
+    top: 207px;
+    left: 131px;
+    right: 766px;
+}
+
+#imagemDog{
+    position: absolute;
+    top: 89px;
+    left: 644px;
+    right: 250px;
+}
+
+#imagemGato {
+    position: absolute;
+    top: 0px;
+    left: 949px;
+    right: 5px;
+}
+/* Estilo Segundo Banner */
+
+
+
+
+
+
+
+/* Carrossel */
 
 footer{
     background-color: #063643   ;

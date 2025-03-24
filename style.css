@@ -154,6 +154,7 @@ body {
 
 /* Início do Carrossel */
 .carrossel{ /* Container do Carrossel */
+    position: relative;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -164,6 +165,7 @@ body {
     margin-right: 370px;
     margin-top: 30px;
     margin: auto;
+    overflow: hidden;
 }
 
 .modelBanners{ /* Modelo dos Banners do carrossel */
@@ -214,8 +216,8 @@ body {
     height: 40px;
     flex-shrink: 0;
     top: 130px;
-    bottom: 130px;
-    right: 1094.18px;
+    bottom: 162px;
+    right: 1137.09px;
 }
 
 #arrowForward {
@@ -224,8 +226,8 @@ body {
     height: 40px;
     flex-shrink: 0;
     top: 130px;
-    bottom: 130px;
-    left: 1094.18px;
+    bottom: 162px;
+    left: 1137.09px;
 }
 
 .seletor{
@@ -233,10 +235,12 @@ body {
     width: 109px;
     height: 20px;
     flex-shrink: 0;
-    left: 492.09px;
-    right: 493.09px;
-    bottom: -32px;
+    top: 312px;
+    left: 535px;
+    right: 536px;
+    bottom: 32px;
 }
+
 
 /* Estilo Primeiro Banner */
 #bannerCarrossel01 {

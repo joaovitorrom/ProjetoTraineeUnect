@@ -210,38 +210,6 @@ body {
     cursor: pointer;
 }
 
-#arrowBack {
-    position: absolute;
-    width: 42.909px;
-    height: 40px;
-    flex-shrink: 0;
-    top: 130px;
-    bottom: 162px;
-    right: 1137.09px;
-}
-
-#arrowForward {
-    position: absolute;
-    width: 42.909px;
-    height: 40px;
-    flex-shrink: 0;
-    top: 130px;
-    bottom: 162px;
-    left: 1137.09px;
-}
-
-.seletor{
-    position: absolute;
-    width: 109px;
-    height: 20px;
-    flex-shrink: 0;
-    top: 312px;
-    left: 535px;
-    right: 536px;
-    bottom: 32px;
-}
-
-
 /* Estilo Primeiro Banner */
 #bannerCarrossel01 {
     border-radius: 8px;
@@ -276,6 +244,7 @@ body {
     margin-right: 301.09px;
     transition: background-color 0.3s ease;
 }
+
 #botaoCarrossel01:hover{
     background: #063643;
     color: #F8F8FF;
@@ -436,6 +405,60 @@ body {
 }
 /* Estilo Terceiro Banner */
 
+/* Elementos de transição do carrossel*/
+#arrowBack {
+    position: absolute;
+    width: 42.909px;
+    height: 40px;
+    flex-shrink: 0;
+    top: 130px;
+    bottom: 162px;
+    right: 1137.09px;
+}
+
+#arrowForward {
+    position: absolute;
+    width: 42.909px;
+    height: 40px;
+    flex-shrink: 0;
+    top: 130px;
+    bottom: 162px;
+    left: 1137.09px;
+}
+
+.seletor{ /* Container do seletor de banners */
+    position: absolute;
+    width: 109px;
+    height: 20px;
+    flex-shrink: 0;
+    top: 312px;
+    left: 535px;
+    right: 536px;
+    bottom: 32px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+/* Estilizando os radio buttons */
+input[type="radio"] {
+    appearance: none; /* Remove o estilo padrão */
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    border: 2px solid #A3A3A3;
+    background-color: #A3A3A3;
+    display: inline-block;
+    position: relative;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+
+/* Quando o radio está selecionado */
+input[type="radio"]:checked {
+    background-color: #63B3C9;
+    border-color: #63B3C9;
+}
 /* Fim do Carrossel */
 
 footer{

@@ -119,6 +119,12 @@ body {
     flex-shrink: 0;
     border: none;
     cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.botaocontato:hover{
+    background-color: #8ad3e6;
+    color: #0F637A;
 }
 
 .imagenscachorros{
@@ -264,6 +270,11 @@ body {
     margin-top: 51px;
     margin-left: 510.09px;
     margin-right: 301.09px;
+    transition: background-color 0.3s ease;
+}
+#botaoCarrossel01:hover{
+    background: #063643;
+    color: #F8F8FF;
 }
 
 #imagemVacina{
@@ -334,6 +345,10 @@ body {
     top: 207px;
     left: 131px;
     right: 766px;
+    transition: background-color 0.3s ease;
+}
+#botaoCarrossel02:hover{
+    background: #7CCBE0;
 }
 
 #imagemDog{
@@ -388,6 +403,11 @@ body {
     left: 93px;
     right: 718.8px;
     bottom: 32px;
+    transition: background-color 0.3s ease;
+}
+#botaoCarrossel03:hover{
+    color: #063643;
+    background-color: #7CCBE0;
 }
 
 #imagemGatoBanho {

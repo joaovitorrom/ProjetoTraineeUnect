@@ -83,6 +83,10 @@ body {
     background-color: #e0f3f8;
 }
 
+.contato{
+    margin-top: 160px;
+}
+
 .titulodiv1{
     color: var(--Colors-blue1100, #063643);
     font-family: Poppins;

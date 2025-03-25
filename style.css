@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
 *{
   margin: 0;
@@ -76,6 +77,7 @@ header {
     border: 1px solid #00000026;
     position: relative;
     margin: auto;
+    margin-top: 160px;
 }
 /*Cabeçalho*/
 
@@ -118,6 +120,12 @@ body {
     flex-shrink: 0;
     border: none;
     cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.botaocontato:hover{
+    background-color: #8ad3e6;
+    color: #0F637A;
 }
 
 .imagenscachorros{
@@ -147,16 +155,16 @@ body {
 
 /* Início do Carrossel */
 .carrossel{ /* Container do Carrossel */
+    position: relative;
     display: flex;
     justify-content: center;
     align-items: center;
     width: 1180px;
     height: 332px;
     flex-shrink: 0;
-    margin-left: 370px;
-    margin-right: 370px;
-    margin-top: 30px;
     margin: auto;
+    margin-top: 30px;
+    overflow: hidden;
 }
 
 .modelBanners{ /* Modelo dos Banners do carrossel */
@@ -164,6 +172,15 @@ body {
     width: 1094.182px;
     height: 300px;
     flex-shrink: 0;
+    margin-bottom: 32px;
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity 0.5s ease-in-out; /* Para animar a transição entre os slides */
+}
+
+.modelBanners.on {
+    opacity: 1;
+    pointer-events: auto;
 }
 
 .modelTitulo { /* Modelo de títulos do banner */
@@ -201,41 +218,14 @@ body {
     cursor: pointer;
 }
 
-#arrowBack {
-    position: absolute;
-    width: 42.909px;
-    height: 40px;
-    flex-shrink: 0;
-    top: 130px;
-    bottom: 130px;
-    right: 1094.18px;
-}
-
-#arrowForward {
-    position: absolute;
-    width: 42.909px;
-    height: 40px;
-    flex-shrink: 0;
-    top: 130px;
-    bottom: 130px;
-    left: 1094.18px;
-}
-
-#seletor{
-    position: absolute;
-    width: 109px;
-    height: 20px;
-    flex-shrink: 0;
-    left: 492.09px;
-    right: 493.09px;
-    bottom: -32px;
-}
-
 /* Estilo Primeiro Banner */
 #bannerCarrossel01 {
+    z-index: 2; /* Para ser o primeiro banner a ser mostrado */
+    position: absolute;
     border-radius: 8px;
     background: #6BB7CB;
     box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.15);
+    flex: 0 0 100%;
 }
 
 #tituloCarrossel01 {
@@ -263,6 +253,12 @@ body {
     margin-top: 51px;
     margin-left: 510.09px;
     margin-right: 301.09px;
+    transition: background-color 0.3s ease;
+}
+
+#botaoCarrossel01:hover{
+    background: #063643;
+    color: #F8F8FF;
 }
 
 #imagemVacina{
@@ -300,11 +296,14 @@ body {
 
 /* Estilo Segundo Banner */
 #bannerCarrossel02 {
+    z-index: 1; /* Para ser o segundo banner a ser mostrado */
+    position: absolute;
     color: #063643;
     border-radius: 8px;
     background: url(https://s3-alpha-sig.figma.com/img/5821/4e25/6fc1dafda45401d114a42d25343f1ce6?Expires=1743379200&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=qDepp~NY-o~a8PNd0G2bRN5Pr-FKvnXaLsk9~TzQk2MHjCoMI68C3J~k7GXraT1~aYRueEof4x2jBPtmD-emxdboUn4Q2YsUBF1SPVwDvidkGQCzJUlR21sVppyzEC9s55bcYSb962OYLKGZgV0D~YIhC006ex0tGDQRfDacXngDA4AoXGFe2L~M0iTEkcCTOXlYwXWLEwosocHYbZ2857CTuCFmoZCvC~R7Nqsy29pQ5y7GApuaPbT0QE58FcZ3FIiKeEipxVgcVUJbzbTh3SgKcWX1ADsHImKRQzhNTCD743F6OophPrAsVmJrVc15Sw~w4WHzjb4ql0DfPFt9kg__) lightgray -29.652px -257.215px / 100% 364.667% no-repeat;
     background-color: #063643;
     box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.15);
+    flex: 0 0 100%;
 }
 
 #tituloCarrossel02 {
@@ -333,6 +332,10 @@ body {
     top: 207px;
     left: 131px;
     right: 766px;
+    transition: background-color 0.3s ease;
+}
+#botaoCarrossel02:hover{
+    background: #7CCBE0;
 }
 
 #imagemDog{
@@ -352,9 +355,12 @@ body {
 
 /* Estilo Terceiro Banner */
 #bannerCarrossel03 {
+    z-index: 0; /* Para ser o terceiro banner a ser mostrado */
+    position: absolute;
     border-radius: 8px;
     background: #F8F8FF;
     box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.15);
+    flex: 0 0 100%;
 }
 
 #tituloCarrossel03 {
@@ -387,6 +393,11 @@ body {
     left: 93px;
     right: 718.8px;
     bottom: 32px;
+    transition: background-color 0.3s ease;
+}
+#botaoCarrossel03:hover{
+    color: #063643;
+    background-color: #7CCBE0;
 }
 
 #imagemGatoBanho {
@@ -411,7 +422,107 @@ body {
 }
 /* Estilo Terceiro Banner */
 
+/* Elementos de transição do carrossel*/
+#arrowBack {
+    position: absolute;
+    width: 42.909px;
+    height: 40px;
+    flex-shrink: 0;
+    top: 130px;
+    bottom: 162px;
+    right: 1137.09px;
+    cursor: pointer;
+    background: none;
+    border: none;
+}
+
+#arrowForward {
+    position: absolute;
+    width: 42.909px;
+    height: 40px;
+    flex-shrink: 0;
+    top: 130px;
+    bottom: 162px;
+    left: 1137.09px;
+    cursor: pointer;
+    background: none;
+    border: none;
+}
+
+.seletor{ /* Container do seletor de banners */
+    position: absolute;
+    width: 109px;
+    height: 20px;
+    flex-shrink: 0;
+    top: 312px;
+    left: 535px;
+    right: 536px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+/* Estilizando os radio buttons */
+input[type="radio"] {
+    appearance: none; /* Remove o estilo padrão */
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    border: 2px solid #A3A3A3;
+    background-color: #A3A3A3;
+    display: inline-block;
+    position: relative;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+
+/* Quando o radio está selecionado */
+input[type="radio"]:checked {
+    background-color: #63B3C9;
+    border-color: #63B3C9;
+}
 /* Fim do Carrossel */
+
+.quemSomos{
+    max-width: 100%;
+    height: 300px;
+    background-image: url("assets/images/fundoAnimaisQuem.svg");
+    margin: auto;
+    background-color: #8ad3e6;
+}
+
+#logoQuem{
+    width: 300px;
+    height: 300px;
+    flex-shrink: 0;
+    margin-left: 459px;
+}
+
+.textoQuem{
+    margin-left: 862px;
+    margin-top: -270px;
+}
+
+#tituloQuem{
+    color: var(--Colors-blue1100, #063643);
+    font-family: Poppins;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-bottom: 33px;
+}
+
+#textoQuem{
+    color: var(--Colors-blue1100, #063643);
+    font-family: "Open Sans";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px; /* 130% */
+    letter-spacing: 0.4px;
+    width: 699px;
+}
 
 footer{
     background-color: #063643;

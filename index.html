@@ -28,7 +28,18 @@
             <img src="assets/images/Waveform.svg" alt="Estilo" id="waveform">
         </div>
         <div class="carrossel"> <!-- Carrosel --> 
-            <div class="modelBanners" id="bannerCarrossel01"> <!-- Primeiro Banner -->
+            <div class="seletor"> <!-- Botões de seleção -->
+                <input type="radio" name="radio-btn" id="radio-btn1" checked>
+                <input type="radio" name="radio-btn" id="radio-btn2">
+                <input type="radio" name="radio-btn" id="radio-btn3">
+            </div>
+            <button id="arrowBack"> <!-- Flecha de Volta -->
+                <img src="assets/images/arrow_back_1.svg" alt="Flecha de Volta">
+            </button>
+            <button id="arrowForward"> <!-- Flecha de Ida -->
+                <img src="assets/images/arrow_forward_1.svg" alt="Flecha de Ida">
+            </button>
+            <div class="modelBanners on" id="bannerCarrossel01"> <!-- Primeiro Banner -->
                 <h1 class="modelTitulo" id="tituloCarrossel01">Campanha de vacinação</h1>
                 <p class="modelTexto" id="textoCarrossel01">Dos dias 19 a 28 de novembro</p>
                 <button class="modelSaibaMais" id="botaoCarrossel01">Saiba mais</button>
@@ -36,8 +47,6 @@
                 <img src="assets/images/pata1.png" alt="Pata01" id="imagemPata01">
                 <img src="assets/images/pata2.svg" alt="Pata02" id="imagemPata02">
                 <img src="assets/images/sombraGato.svg" alt="Sombra de um gato" id="imagemSombraGato">
-                <img src="assets/images/arrow_back_1.svg" alt="Flecha de Volta" id="arrowBack">
-                <img src="assets/images/arrow_forward_1.svg" alt="Flecha de Ida" id="arrowForward">
             </div> <!-- Primeiro Banner -->
             <div class="modelBanners" id="bannerCarrossel02"> <!-- Segundo Banner -->
                 <h1 class="modelTitulo" id="tituloCarrossel02">Campanha de adoção</h1>
@@ -54,10 +63,16 @@
                 <img src="assets/images/guarda-chuva.svg" alt="guarda-chuva" id="imagemGuardaChuva">
                 <img src="assets/images/pingosÁgua.png" alt="pingos" id="imagemPingos">
             </div> <!-- Terceiro Banner -->
-        
-
         </div> <!-- Carrosel --> 
         
+        <div class="quemSomos">
+            <img src="assets/images/logoQuem.svg" alt="logo pindorama" id="logoQuem">
+            <div class="textoQuem">
+                <h1 id="tituloQuem">Quem somos?</h1>
+                <p id="textoQuem">Nossa clínica veterinária é comprometida com o cuidado e bem-estar de cada pet, com uma equipe dedicada e instalações modernas, buscamos garantir saúde e conforto em cada atendimento. Cuidamos do seu animalzinho como se fosse nosso!</p>
+            </div>
+        </div>
+
         <footer>
             <div class="rodape">
                 <div class="logorodape">

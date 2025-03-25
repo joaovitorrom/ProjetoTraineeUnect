@@ -28,8 +28,8 @@ function hideBanner () { // Função para esconder os banners
 };
 
 function showBanner () { // Função para mostrar os banners
-    banners[indexAtual].style.display = 'block';
     banners[indexAtual].classList.add('on');
+    banners[indexAtual].style.display = 'block';
 };
 
 function nextBanner () { // Função para avançar o banner

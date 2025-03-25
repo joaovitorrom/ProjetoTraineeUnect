@@ -162,6 +162,7 @@ body {
     height: 332px;
     flex-shrink: 0;
     margin: auto;
+    margin-top: 30px;
     overflow: hidden;
 }
 
@@ -170,6 +171,8 @@ body {
     width: 1094.182px;
     height: 300px;
     flex-shrink: 0;
+    margin-bottom: 32px;
+    transition: transform 1s ease-in-out; /* Para animar a transição entre os slides */
 }
 
 .modelTitulo { /* Modelo de títulos do banner */
@@ -209,9 +212,11 @@ body {
 
 /* Estilo Primeiro Banner */
 #bannerCarrossel01 {
+    position: absolute;
     border-radius: 8px;
     background: #6BB7CB;
     box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.15);
+    flex: 0 0 100%;
 }
 
 #tituloCarrossel01 {
@@ -282,11 +287,13 @@ body {
 
 /* Estilo Segundo Banner */
 #bannerCarrossel02 {
+    position: absolute;
     color: #063643;
     border-radius: 8px;
     background: url(https://s3-alpha-sig.figma.com/img/5821/4e25/6fc1dafda45401d114a42d25343f1ce6?Expires=1743379200&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=qDepp~NY-o~a8PNd0G2bRN5Pr-FKvnXaLsk9~TzQk2MHjCoMI68C3J~k7GXraT1~aYRueEof4x2jBPtmD-emxdboUn4Q2YsUBF1SPVwDvidkGQCzJUlR21sVppyzEC9s55bcYSb962OYLKGZgV0D~YIhC006ex0tGDQRfDacXngDA4AoXGFe2L~M0iTEkcCTOXlYwXWLEwosocHYbZ2857CTuCFmoZCvC~R7Nqsy29pQ5y7GApuaPbT0QE58FcZ3FIiKeEipxVgcVUJbzbTh3SgKcWX1ADsHImKRQzhNTCD743F6OophPrAsVmJrVc15Sw~w4WHzjb4ql0DfPFt9kg__) lightgray -29.652px -257.215px / 100% 364.667% no-repeat;
     background-color: #063643;
     box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.15);
+    flex: 0 0 100%;
 }
 
 #tituloCarrossel02 {
@@ -338,9 +345,11 @@ body {
 
 /* Estilo Terceiro Banner */
 #bannerCarrossel03 {
+    position: absolute;
     border-radius: 8px;
     background: #F8F8FF;
     box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.15);
+    flex: 0 0 100%;
 }
 
 #tituloCarrossel03 {
@@ -417,7 +426,6 @@ body {
 }
 
 #arrowForward {
-    appearance: none;
     position: absolute;
     width: 42.909px;
     height: 40px;

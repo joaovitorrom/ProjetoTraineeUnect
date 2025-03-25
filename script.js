@@ -19,12 +19,11 @@ const banners = document.querySelectorAll(".modelBanners");
 
 let indexAtual = 0;
 
+
 function hideBanner () { // Função para esconder os banners
     banners.forEach(banner => {
         banner.classList.remove('on');
-        if (!banner.classList.contains('on')) {
-            banner.style.display = 'none';
-        }
+        banner.style.display = 'none';
     });
 };
 
@@ -52,6 +51,7 @@ function previousBanner () { // Função para retroceder o banner
     }
     showBanner();
 };
+
 
 flechaAnterior.addEventListener("click", previousBanner); // Evento para retroceder o banner
 

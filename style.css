@@ -168,11 +168,12 @@ body {
 
 .modelBanners{ /* Modelo dos Banners do carrossel */
     position: relative;
+    display: flex;
     width: 1094.182px;
     height: 300px;
     flex-shrink: 0;
     margin-bottom: 32px;
-    transition: transform 1s ease-in-out; /* Para animar a transição entre os slides */
+    transition: transform 0.5s ease-in-out; /* Para animar a transição entre os slides */
 }
 
 .modelTitulo { /* Modelo de títulos do banner */
@@ -212,6 +213,7 @@ body {
 
 /* Estilo Primeiro Banner */
 #bannerCarrossel01 {
+    z-index: 2; /* Para ser o primeiro banner a ser mostrado */
     position: absolute;
     border-radius: 8px;
     background: #6BB7CB;
@@ -287,6 +289,7 @@ body {
 
 /* Estilo Segundo Banner */
 #bannerCarrossel02 {
+    z-index: 1; /* Para ser o segundo banner a ser mostrado */
     position: absolute;
     color: #063643;
     border-radius: 8px;
@@ -345,6 +348,7 @@ body {
 
 /* Estilo Terceiro Banner */
 #bannerCarrossel03 {
+    z-index: 0; /* Para ser o terceiro banner a ser mostrado */
     position: absolute;
     border-radius: 8px;
     background: #F8F8FF;

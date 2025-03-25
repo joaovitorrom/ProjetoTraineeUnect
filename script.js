@@ -15,8 +15,8 @@ const flechaSeguinte = document.getElementById("arrowForward");
 const botao1 = document.getElementById("radio-btn1");
 const botao2 = document.getElementById("radio-btn2");
 const botao3 = document.getElementById("radio-btn3");
-const banners = document.querySelectorAll(".modelBanners");
 const botoes = document.querySelectorAll('input[type="radio"]');
+const banners = document.querySelectorAll(".modelBanners");
 
 let indexAtual = 0;
 
@@ -24,13 +24,11 @@ let indexAtual = 0;
 function hideBanner () { // Função para esconder os banners
     banners.forEach(banner => {
         banner.classList.remove('on');
-        banner.style.display = 'none';
     });
 };
 
 function showBanner () { // Função para mostrar os banners
     banners[indexAtual].classList.add('on');
-    banners[indexAtual].style.display = 'block';
 };
 
 function hideBannerButton () { // Função para esconder os banners ao selecionar um radio button
@@ -41,7 +39,6 @@ function hideBannerButton () { // Função para esconder os banners ao seleciona
 
 function showBannerButton () { // Função para mostrar os banners ao selecionar um radio button
     botoes[indexAtual].checked = true;
-    botoes[indexAtual].style.display = 'block';
 };
 
 function nextBanner () { // Função para avançar o banner
@@ -72,12 +69,31 @@ function previousBanner () { // Função para retroceder o banner
     showBannerButton();
 };
 
-
-
 flechaAnterior.addEventListener("click", previousBanner); // Evento para retroceder o banner
 
 flechaSeguinte.addEventListener("click", nextBanner); // Evento para avançar o banner
 
+botao1.addEventListener("click", () => {
+    hideBanner();       // Esconde todos os banners
+    hideBannerButton(); // Desmarca todos os radio buttons
+    indexAtual = 0;     // Atualiza o índice para o primeiro slide
+    showBanner();       // Exibe o banner correspondente
+    showBannerButton(); // Marca o radio button correspondente
+});
 
+botao2.addEventListener("click", () => {
+    hideBanner();
+    hideBannerButton();
+    indexAtual = 1;
+    showBanner();
+    showBannerButton();
+});
 
+botao3.addEventListener("click", () => {
+    hideBanner();
+    hideBannerButton();
+    indexAtual = 2;
+    showBanner();
+    showBannerButton();
+});
 // Fim botões de transição do carrossel

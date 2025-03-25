@@ -412,9 +412,12 @@ body {
     bottom: 162px;
     right: 1137.09px;
     cursor: pointer;
+    background: none;
+    border: none;
 }
 
 #arrowForward {
+    appearance: none;
     position: absolute;
     width: 42.909px;
     height: 40px;
@@ -423,6 +426,8 @@ body {
     bottom: 162px;
     left: 1137.09px;
     cursor: pointer;
+    background: none;
+    border: none;
 }
 
 .seletor{ /* Container do seletor de banners */

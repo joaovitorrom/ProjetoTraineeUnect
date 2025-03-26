@@ -483,7 +483,48 @@ input[type="radio"]:checked {
 }
 /* Fim do Carrossel */
 
+/* Nossos profissionais*/
+/* Tipografia*/
+.nossosProfissionais {
+    width: 1180px;
+    height: 460px;
+    flex-shrink: 0;
+    margin: auto;
+    margin-top: 48px;
+    border-radius: 8px;
+    background: #F8F8FF;
+    box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.25);
+}
 
+#tituloDivPro {
+    color: #063643;
+    font-family: Poppins;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.tipoNomesPro {
+    color: #063643;
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.tipoCargo {
+    color: #063643;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+/* Tipografia */
+
+/* Nossos profissionais*/
 
 .quemSomos{
     max-width: 100%;

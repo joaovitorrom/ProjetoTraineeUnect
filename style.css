@@ -486,6 +486,7 @@ input[type="radio"]:checked {
 /* Nossos profissionais*/
 /* Tipografia*/
 .nossosProfissionais {
+    position: relative;
     width: 1180px;
     height: 460px;
     flex-shrink: 0;
@@ -497,12 +498,15 @@ input[type="radio"]:checked {
 }
 
 #tituloDivPro {
+    position: absolute;
     color: #063643;
     font-family: Poppins;
     font-size: 24px;
     font-style: normal;
     font-weight: 700;
     line-height: normal;
+    top: 44px;
+    left: 80px;
 }
 
 .tipoNomesPro {
@@ -523,7 +527,82 @@ input[type="radio"]:checked {
     line-height: normal;
 }
 /* Tipografia */
+/* Posicionamento*/
+#medico1 {
+    position: absolute;
+    top: 120px;
+    left: 50px;
+    gap: 40px;
+}
 
+#medico2 {
+    position: absolute;
+    top: 120px;
+    left: 330px;
+    gap: 40px;
+}
+
+#medico3 {
+    position: absolute;
+    top: 120px;
+    left: 610px;
+    gap: 40px;
+}
+
+#medico4 {
+    position: absolute;
+    top: 120px;
+    left: 890px;
+    gap: 40px;
+}
+
+#nomeMed1 {
+    position: absolute;
+    top: 369px;
+    left: 99px;
+}
+
+#nomeMed2 {
+    position: absolute;
+    top: 369px;
+    left: 403px;
+}
+
+#nomeMed3 {
+    position: absolute;
+    top: 369px;
+    left: 671px;
+}
+
+#nomeMed4 {
+    position: absolute;
+    top: 369px;
+    left: 984px;
+}
+
+#cargoMed1 {
+    position: absolute;
+    top: 397px;
+    left: 98px;
+}
+
+#cargoMed2 {
+    position: absolute;
+    top: 397px;
+    left: 357px;
+}
+
+#cargoMed3 {
+    position: absolute;
+    top: 397px;
+    left: 692px;
+}
+
+#cargoMed4 {
+    position: absolute;
+    top: 397px;
+    left: 955px;
+}
 /* Nossos profissionais*/
 
 .quemSomos{

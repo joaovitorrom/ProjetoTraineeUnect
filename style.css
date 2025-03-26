@@ -220,7 +220,6 @@ body {
 
 /* Estilo Primeiro Banner */
 #bannerCarrossel01 {
-    z-index: 2; /* Para ser o primeiro banner a ser mostrado */
     position: absolute;
     border-radius: 8px;
     background: #6BB7CB;
@@ -296,7 +295,6 @@ body {
 
 /* Estilo Segundo Banner */
 #bannerCarrossel02 {
-    z-index: 1; /* Para ser o segundo banner a ser mostrado */
     position: absolute;
     color: #063643;
     border-radius: 8px;
@@ -355,7 +353,6 @@ body {
 
 /* Estilo Terceiro Banner */
 #bannerCarrossel03 {
-    z-index: 0; /* Para ser o terceiro banner a ser mostrado */
     position: absolute;
     border-radius: 8px;
     background: #F8F8FF;
@@ -527,7 +524,8 @@ input[type="radio"]:checked {
     line-height: normal;
 }
 /* Tipografia */
-/* Posicionamento*/
+
+/* Posicionamento */
 #medico1 {
     position: absolute;
     top: 120px;
@@ -603,7 +601,8 @@ input[type="radio"]:checked {
     top: 397px;
     left: 955px;
 }
-/* Nossos profissionais*/
+/* Posicionamento */
+/* Nossos profissionais */
 
 .quemSomos{
     max-width: 100%;

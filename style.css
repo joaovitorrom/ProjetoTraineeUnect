@@ -610,6 +610,7 @@ input[type="radio"]:checked {
     background-image: url("assets/images/fundoAnimaisQuem.svg");
     margin: auto;
     background-color: #8ad3e6;
+    margin-top: 30px;
 }
 
 #logoQuem{

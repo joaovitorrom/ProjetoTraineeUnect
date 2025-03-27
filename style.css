@@ -660,9 +660,6 @@ input[type="radio"]:checked {
     top: 53px; /* Move para baixo */
 }
 
-.tituloServicos{
-}
-
 #tituloServicos{
     width: 199px;
     color: var(--Colors-blue1100, #063643);

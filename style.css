@@ -81,8 +81,19 @@ header {
 }
 /*Cabeçalho*/
 
+::-webkit-scrollbar {
+    display: none;
+  }
+
+html{
+    overflow: hidden;
+    overflow-y: scroll;
+}
+
 body {
     background-color: #e0f3f8;
+    overflow: hidden;
+    overflow-y: scroll;
 }
 
 .titulodiv1{
@@ -729,6 +740,135 @@ input[type="radio"]:checked {
     margin-top: -190px;
 }
 
+#slider1{
+    position: relative;
+    top: 46px;
+}
+
+#tituloAval1{
+    margin-left: 70px;
+    color: var(--Colors-blue1100, #063643);
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.divSlider{
+    margin: auto;
+    margin-left: 370px;
+}
+
+#divAval1{
+    width: 1180px;
+    height: 626px;
+    flex-shrink: 0;
+}
+
+#carlos{
+    display: flex;
+    flex-direction: row;
+    margin-left: 70px;
+    margin-top: 43px;
+    margin-bottom: 15px;
+}
+
+#avalCarlos{
+    margin-left: 27.72px;
+}
+
+.textoCarlos{
+    width: 741.569px;
+    color: var(--Colors-blue1100, #063643);
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-top: 6px;
+    margin-bottom: 6px;
+}
+
+
+
+#neymar{
+    display: flex;
+    flex-direction: row;
+    margin-left: 70px;
+    margin-top: 12px;
+    margin-bottom: 15px;
+}
+
+.textoNeymar{
+    width: 741.569px;
+    color: var(--Colors-blue1100, #063643);
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-top: 6px;
+    margin-bottom: 6px;
+    line-height: 1.5;
+}
+
+#avalNeymar{
+    margin-left: 27.72px;
+}
+
+
+#jose{
+    display: flex;
+    flex-direction: row;
+    margin-left: 70px;
+    margin-top: 12px;
+    margin-bottom: 15px;
+}
+
+#avalJose{
+    margin-left: 27.72px;
+}
+
+.textoJose{
+    width: 741.569px;
+    color: var(--Colors-blue1100, #063643);
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-top: 6px;
+    margin-bottom: 6px;
+    line-height: 1.2;
+}
+
+#botao1{
+    margin-left: 1038px;
+    display: flex;
+    flex-direction: row;
+}
+
+.numeroPagina{
+    color: var(--Colors-blue1100, #063643);
+    font-family: Poppins;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 30px; /* 166.667% */
+    letter-spacing: 0.18px;
+}
+
+.btnAval{
+    display: inline-flex;
+    padding: 5px 10px;
+    align-items: center;
+    gap: 10px;
+    border-radius: 8px;
+    border: 1px solid var(--Colors-blue1100, #063643);
+    margin-left: 14px;
+    background-color: #e0f3f8;
+}
 
 footer{
     background-color: #063643;

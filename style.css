@@ -534,6 +534,7 @@ input[type="radio"]:checked {
     border-radius: 8px;
     background: #F8F8FF;
     box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.25);
+    margin-bottom: 48px;
 }
 
 #tituloDivPro {
@@ -657,6 +658,7 @@ input[type="radio"]:checked {
     align-items: flex-start;
     flex-shrink: 0;
     box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.15);
+    margin-top: 30px;
 }
 
 .info-form {
@@ -691,6 +693,89 @@ input[type="radio"]:checked {
 /* Formulário */
 
 /* Container Contato */
+
+.nossosServicos{
+    max-width: 100%;
+    height: 418.25px;
+    background-image: url("assets/images/fundoAnimaisQuem.svg");
+    margin: auto;
+    background-color: #63B3C9;
+}
+
+
+.tituloFotoServicos{
+    margin-left: 450px;
+    position: relative;
+    top: 53px; /* Move para baixo */
+}
+
+#tituloServicos{
+    width: 199px;
+    color: var(--Colors-blue1100, #063643);
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-bottom: 51px;
+}
+
+
+
+#logoServicos{
+    width: 320px;
+    height: 260px;
+    flex-shrink: 0;
+    border-radius: 8px;
+}
+
+
+#textoServicos{
+    width: 620px;
+    color: var(--Colors-blue1100, #063643);
+    font-family: "Open Sans";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px; /* 150% */
+    letter-spacing: 0.4px;
+    margin-top: -257px;
+    margin-left: 862px;
+    
+    position: relative;
+    top: 53px; /* Move para baixo */
+}
+
+.divTerceira{
+    height: 325px;
+    max-width: 100%;
+    background-image: url("assets/images/fundoAnimaisQuem.svg");
+    background-color: #8ad3e6;
+    margin: auto;
+}
+
+#fotodiv3{
+    width: 320px;
+    height: 260px;
+    flex-shrink: 0;
+    border-radius: 8px;
+    margin-top: 25px;
+    margin-left: 1150px;
+}
+
+#textodiv3{
+    width: 620px;
+    color: var(--Colors-blue1100, #063643);
+    font-family: "Open Sans";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px; /* 150% */
+    letter-spacing: 0.4px;
+    margin-left: 466px;
+    margin-top: -190px;
+}
+
 
 footer{
     background-color: #063643;

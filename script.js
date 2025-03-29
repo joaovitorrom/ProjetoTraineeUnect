@@ -1,11 +1,35 @@
 // Início botões de navegação da página
 let botaoInicio = document.getElementById("botaoinicio");
-let botaoServicos = document.getElementById("botaosevico");
+let botaoServicos = document.getElementById("botaoservicos");
 let botaoSobre = document.getElementById("botaosobre");
 let botaoContato = document.getElementById("botaocontato");
 
 botaoInicio.addEventListener("click", () => {
     window.scrollTo({ top: 0, behavior: "smooth" });
+});
+
+botaoServicos.addEventListener("click", (event) => {
+    event.preventDefault(); // Evita qualquer comportamento padrão do botão
+
+    let servicos = document.getElementById("servicos"); // Pega a div de serviços
+    let headerHeight = 142.17; // Altura do cabeçalho
+
+    window.scrollTo({
+        top: servicos.offsetTop - headerHeight, // Move a div para logo abaixo do cabeçalho
+        behavior: "smooth"
+    });
+});
+
+botaoSobre.addEventListener("click", (event) => {
+    event.preventDefault(); // Evita qualquer comportamento padrão do botão
+
+    let sobre = document.getElementById("quem"); // Pega a div de Quem Somos
+    let headerHeight = 142.17; // Altura do cabeçalho
+
+    window.scrollTo({
+        top: sobre.offsetTop - headerHeight, // Move a div para logo abaixo do cabeçalho
+        behavior: "smooth"
+    });
 });
 // Fim botões de navegação da página
 

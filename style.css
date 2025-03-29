@@ -727,6 +727,17 @@ input[type="radio"]:checked {
 /* Posicionamento */
 /* Nossos profissionais */
 
+
+#entreContato {
+    margin-left: 503px;
+    color: var(--Colors-blue1100, #063643);
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;    
+}
+
 /* Container Contato */
 .container-contato {
     position: relative;
@@ -741,6 +752,7 @@ input[type="radio"]:checked {
     margin-top: 30px;
 }
 
+
 .info-form {
     position: relative;
     width: 420px;
@@ -750,6 +762,7 @@ input[type="radio"]:checked {
     border: 1px solid rgba(6, 54, 67, 0.40);
     background: var(--Colors-white, #F8F8FF);
 }
+
 
 /* Formulário */
 .container-form {
@@ -769,6 +782,108 @@ input[type="radio"]:checked {
     justify-content: flex-end;
     align-items: flex-start;
     gap: 28px;
+}
+
+label {
+    color: #063643;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+#nome {
+    width: 520px;
+    height: 60px;
+    flex-shrink: 0;
+    border-radius: 8px;
+    border: 1px solid rgba(0, 0, 0, 0.40);
+    box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.15);
+    margin-top: 8px;
+    cursor: pointer;
+}
+
+#nome:hover {
+    border-radius: 8px;
+    border: 2px solid #063643;
+    box-shadow: 0px 2px 4px 0px rgba(6, 54, 67, 0.15);
+}
+
+#sobrenome {
+    width: 520px;
+    height: 60px;
+    flex-shrink: 0;
+    border-radius: 8px;
+    border: 1px solid rgba(0, 0, 0, 0.40);
+    box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.15);
+    margin-top: 8px;
+    cursor: pointer;
+}
+
+#sobrenome:hover {
+    border-radius: 8px;
+    border: 2px solid #063643;
+    box-shadow: 0px 2px 4px 0px rgba(6, 54, 67, 0.15);
+}
+
+#email {
+    width: 520px;
+    height: 60px;
+    flex-shrink: 0;
+    border-radius: 8px;
+    border: 1px solid rgba(0, 0, 0, 0.40);
+    box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.15);
+    margin-top: 8px;
+    cursor: pointer;
+}
+
+#email:hover {
+    border-radius: 8px;
+    border: 2px solid #063643;
+    box-shadow: 0px 2px 4px 0px rgba(6, 54, 67, 0.15);
+}
+
+#msg {
+    width: 520px;
+    height: 120px;
+    flex-shrink: 0;
+    border-radius: 8px;
+    border: 1px solid rgba(0, 0, 0, 0.40);
+    box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.15);
+    margin-top: 8px;
+    cursor: pointer;
+}
+
+#msg:hover {
+    border-radius: 8px;
+    border: 2px solid #063643;
+    box-shadow: 0px 2px 4px 0px rgba(6, 54, 67, 0.15);
+}
+
+#botao-form{
+    display: flex;
+    align-items: flex-start;
+    width: 144px;
+    height: 55px;
+    padding: 8px 4px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 8px;
+    background: var(--Colors-blue1000, #0F637A);
+    color: #F8F8FF;
+    font-family: Poppins;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    cursor: pointer;
+}
+
+#botao-form:hover {
+    border-radius: 8px;
+    background: #063643;
 }
 /* Formulário */
 

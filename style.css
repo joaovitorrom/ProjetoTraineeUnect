@@ -728,6 +728,7 @@ input[type="radio"]:checked {
 /* Nossos profissionais */
 
 
+/* Seção Entre em Contato */
 #entreContato {
     margin-left: 503px;
     color: var(--Colors-blue1100, #063643);
@@ -752,7 +753,6 @@ input[type="radio"]:checked {
     margin-top: 30px;
 }
 
-
 .info-form {
     position: relative;
     width: 420px;
@@ -763,6 +763,104 @@ input[type="radio"]:checked {
     background: var(--Colors-white, #F8F8FF);
 }
 
+#tituloInfo {
+    position: absolute;
+    color: var(--Colors-blue1100, #063643);
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    top: 51px;
+    left: 21px;
+}
+
+#endereco {
+    position: absolute;
+    width: 280px;
+    height: 78px;
+    color: var(--Colors-blue1100, #063643);
+    font-family: Inter;
+    font-size: 20px;
+    font-style: italic;
+    font-weight: 400;
+    line-height: 26px; /* 130% */
+    top: 115px;
+    left: 20px;
+    right: 120px;
+}
+
+#mapa {
+    position: absolute;
+    width: 350px;
+    height: 244.156px;
+    flex-shrink: 0;
+    border-radius: 4px;
+    border: 1px solid rgba(15, 99, 122, 0.40);
+    background: url(<path-to-image>) lightgray 50% / cover no-repeat;
+    top: 263px;
+    left: 35px;
+}
+
+#loc {
+    position: absolute;
+    top: 339px;
+    left: 202px;
+}
+
+#whatsapp {
+    position: absolute;
+    top: 554px;
+    left: 20px;
+}
+
+#instagram {
+    position: absolute;
+    top: 598px;
+    left: 20px;
+}
+
+#facebook {
+    position: absolute;
+    top: 642px;
+    left: 20px;
+}
+
+#textoWhats {
+    position: absolute;
+    color: var(--Colors-blue1100, #063643);
+    font-family: "Open Sans";
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    top: 561px;
+    left: 68px;
+}
+
+#textoInsta {
+    position: absolute;
+    color: var(--Colors-blue1100, #063643);
+    font-family: "Open Sans";
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    top: 604px;
+    left: 68px;
+}
+
+#textoFace {
+    position: absolute;
+    color: var(--Colors-blue1100, #063643);
+    font-family: "Open Sans";
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    top: 647px;
+    left: 68px;
+}
 
 /* Formulário */
 .container-form {
@@ -893,6 +991,7 @@ label {
 
 footer{
     background-color: #063643;
+    margin-top: 48px;
 }
 
 #rodape{

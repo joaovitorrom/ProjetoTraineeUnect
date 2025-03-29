@@ -92,7 +92,7 @@
                 <h2 class="tipoNomesPro" id="nomeMed4">fulano</h2>
                     <h3 class="tipoCargo" id="cargoMed4">Anestesiologia</h3>
         </div> 
-        <div class="container-form">
+        <div class="container-contato">
             <div class="info-form">
                 <h2>Localização</h2>
                 <p> Rua - Fulana de tal, 9999
@@ -100,37 +100,39 @@
                     Pindorama/SP
                 </p>
 
-                <img src="assets/images/mapa.png" alt="mapa">
-                <img src="assets/images/Map pin.svg" alt="loc">
+                <img src="assets/images/mapa.png" alt="mapa" id="mapa">
+                <img src="assets/images/Map pin.svg" alt="loc" id="loc">
 
                 <img src="assets/images/icon-whatsapp.svg" alt="whatsapp">
-                <p>(99)-99999999</p>
+                <p id="whatsapp">(99)-99999999</p>
               
                 <img src="assets/images/icon-instagram.svg" alt="instagram">
-                <p>@PindoramaClinica</p>
+                <p id="instagram">@PindoramaClinica</p>
                 
                 <img src="assets/images/icon-face.svg" alt="facebook">
-                <p>PindoramaClinica</p>
+                <p id="facebook">PindoramaClinica</p>
             </div>
-            <form action="#" method="post">
-                <div class="grupo-form">
-                    <label for="nome">Nome</label>
-                    <input type="text" id="nome" required>
-                </div>
-                <div class="grupo-form">
-                    <label for="sobrenome">Sobrenome</label>
-                    <input type="text" id="sobrenome" required>
-                </div>
-                <div class="grupo-form">
-                    <label for="email">Email</label>
-                    <input type="email" id="email" required>
-                </div>
-                <div class="grupo-form">
-                    <label for="msg">Mensagem</label>
-                    <input type="text" id="msg">
-                </div>
-                    <button type="submit" id="botao-form">ENVIAR</button>
-            </form>
+            <div class="container-form">
+                <form action="#" method="post" id="form">
+                    <div>
+                        <label for="nome">Nome</label>
+                        <input type="text" id="nome" required>
+                    </div>
+                    <div>
+                        <label for="sobrenome">Sobrenome</label>
+                        <input type="text" id="sobrenome" required>
+                    </div>
+                    <div>
+                        <label for="email">Email</label>
+                        <input type="email" id="email" required>
+                    </div>
+                    <div>
+                        <label for="msg">Mensagem</label>
+                        <input type="text" id="msg">
+                    </div>
+                        <button type="submit" id="botao-form">ENVIAR</button>
+                </form>
+            </div>
         </div>             
         <footer>
             <div class="rodape">

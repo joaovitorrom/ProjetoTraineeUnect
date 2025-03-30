@@ -44,7 +44,6 @@ const banners = document.querySelectorAll(".modelBanners");
 
 let indexAtual = 0;
 
-
 function hideBanner () { // Função para esconder os banners
     banners.forEach(banner => {
         banner.classList.remove('on');
@@ -58,7 +57,6 @@ function showBanner () { // Função para mostrar os banners
     banners[indexAtual].classList.add('on');
     botoes[indexAtual].checked = true; // marca o radio button correspondente ao banner
 };
-
 
 function nextBanner () { // Função para avançar o banner
     hideBanner();

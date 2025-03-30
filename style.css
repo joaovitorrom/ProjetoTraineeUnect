@@ -739,7 +739,7 @@ input[type="radio"]:checked {
     line-height: normal;    
 }
 
-/* Container Contato */
+/* Início Container Contato */
 .container-contato {
     position: relative;
     display: flex;
@@ -751,6 +751,7 @@ input[type="radio"]:checked {
     flex-shrink: 0;
     box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.15);
     margin-top: 30px;
+    margin-bottom: 48px;
 }
 
 .info-form {
@@ -900,9 +901,12 @@ label {
     box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.15);
     margin-top: 8px;
     cursor: pointer;
+    caret-color: transparent; /* Esconde a seta de escrita */
+    padding-left: 8px;
 }
 
-#nome:hover {
+#nome:focus {
+    outline: none;
     border-radius: 8px;
     border: 2px solid #063643;
     box-shadow: 0px 2px 4px 0px rgba(6, 54, 67, 0.15);
@@ -917,9 +921,12 @@ label {
     box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.15);
     margin-top: 8px;
     cursor: pointer;
+    caret-color: transparent; 
+    padding-left: 8px;
 }
 
-#sobrenome:hover {
+#sobrenome:focus {
+    outline: none;
     border-radius: 8px;
     border: 2px solid #063643;
     box-shadow: 0px 2px 4px 0px rgba(6, 54, 67, 0.15);
@@ -934,9 +941,12 @@ label {
     box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.15);
     margin-top: 8px;
     cursor: pointer;
+    caret-color: transparent; 
+    padding-left: 8px;
 }
 
-#email:hover {
+#email:focus {
+    outline: none;
     border-radius: 8px;
     border: 2px solid #063643;
     box-shadow: 0px 2px 4px 0px rgba(6, 54, 67, 0.15);
@@ -951,9 +961,13 @@ label {
     box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.15);
     margin-top: 8px;
     cursor: pointer;
+    caret-color: transparent; 
+    padding-left: 8px;
+    padding-bottom: 80px;
 }
 
-#msg:hover {
+#msg:focus {
+    outline: none;
     border-radius: 8px;
     border: 2px solid #063643;
     box-shadow: 0px 2px 4px 0px rgba(6, 54, 67, 0.15);
@@ -979,19 +993,16 @@ label {
     cursor: pointer;
 }
 
-#botao-form:hover {
+#botao-form:hover{
     border-radius: 8px;
     background: #063643;
 }
 /* Formulário */
-
-/* Container Contato */
-
+/* Fim Container Contato */
 
 
 footer{
     background-color: #063643;
-    margin-top: 48px;
 }
 
 #rodape{

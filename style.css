@@ -755,12 +755,44 @@ input[type="radio"]:checked {
     line-height: normal;
 }
 
+#tituloAval2{
+    margin-left: 70px;
+    color: var(--Colors-blue1100, #063643);
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+#tituloAval3{
+    margin-left: 70px;
+    color: var(--Colors-blue1100, #063643);
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
 .divSlider{
     margin: auto;
     margin-left: 370px;
 }
 
 #divAval1{
+    width: 1180px;
+    height: 626px;
+    flex-shrink: 0;
+}
+
+#divAval2{
+    width: 1180px;
+    height: 626px;
+    flex-shrink: 0;
+}
+
+#divAval3{
     width: 1180px;
     height: 626px;
     flex-shrink: 0;
@@ -774,7 +806,31 @@ input[type="radio"]:checked {
     margin-bottom: 15px;
 }
 
+#joao{
+    display: flex;
+    flex-direction: row;
+    margin-left: 70px;
+    margin-top: 43px;
+    margin-bottom: 15px;
+}
+
+#matheus{
+    display: flex;
+    flex-direction: row;
+    margin-left: 70px;
+    margin-top: 43px;
+    margin-bottom: 15px;
+}
+
 #avalCarlos{
+    margin-left: 27.72px;
+}
+
+#avalJoao{
+    margin-left: 27.72px;
+}
+
+#avalMatheus{
     margin-left: 27.72px;
 }
 
@@ -790,14 +846,41 @@ input[type="radio"]:checked {
     margin-bottom: 6px;
 }
 
-
-
 #neymar{
     display: flex;
     flex-direction: row;
     margin-left: 70px;
     margin-top: 12px;
     margin-bottom: 15px;
+}
+
+#adamilton{
+    display: flex;
+    flex-direction: row;
+    margin-left: 70px;
+    margin-top: 12px;
+    margin-bottom: 15px;
+}
+
+#luiz{
+    display: flex;
+    flex-direction: row;
+    margin-left: 70px;
+    margin-top: 12px;
+    margin-bottom: 15px;
+}
+
+.textoAdamilton{
+    width: 741.569px;
+    color: var(--Colors-blue1100, #063643);
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-top: 6px;
+    margin-bottom: 6px;
+    line-height: 1.5;
 }
 
 .textoNeymar{
@@ -813,10 +896,17 @@ input[type="radio"]:checked {
     line-height: 1.5;
 }
 
+#avalAdamilton{
+    margin-left: 27.72px;
+}
+
 #avalNeymar{
     margin-left: 27.72px;
 }
 
+#avalLuiz{
+    margin-left: 27.72px;
+}
 
 #jose{
     display: flex;
@@ -826,7 +916,31 @@ input[type="radio"]:checked {
     margin-bottom: 15px;
 }
 
+#lu{
+    display: flex;
+    flex-direction: row;
+    margin-left: 70px;
+    margin-top: 12px;
+    margin-bottom: 15px;
+}
+
+#cla{
+    display: flex;
+    flex-direction: row;
+    margin-left: 70px;
+    margin-top: 12px;
+    margin-bottom: 15px;
+}
+
+#avalLu{
+    margin-left: 27.72px;
+}
+
 #avalJose{
+    margin-left: 27.72px;
+}
+
+#avalCla{
     margin-left: 27.72px;
 }
 
@@ -845,6 +959,18 @@ input[type="radio"]:checked {
 
 #botao1{
     margin-left: 1038px;
+    display: flex;
+    flex-direction: row;
+}
+
+#botao2{
+    margin-left: 969px;
+    display: flex;
+    flex-direction: row;
+}
+
+#botao3{
+    margin-left: 969px;
     display: flex;
     flex-direction: row;
 }
@@ -868,6 +994,26 @@ input[type="radio"]:checked {
     border: 1px solid var(--Colors-blue1100, #063643);
     margin-left: 14px;
     background-color: #e0f3f8;
+    cursor: pointer;
+}
+
+.btnAtras{
+    display: inline-flex;
+    padding: 5px 10px;
+    align-items: center;
+    gap: 10px;
+    border-radius: 8px;
+    border: 1px solid var(--Colors-blue1100, #063643);
+    margin-left: 14px;
+    background-color: #e0f3f8;
+    cursor: pointer;
+    margin-right: 10px;
+}
+
+.sliderContainer{
+    overflow: hidden;
+    display: flex;
+    justify-content: space-between;
 }
 
 footer{

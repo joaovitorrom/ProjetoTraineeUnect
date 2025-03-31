@@ -740,10 +740,7 @@ input[type="radio"]:checked {
     margin-top: -190px;
 }
 
-#slider1{
-    position: relative;
-    top: 46px;
-}
+
 
 #tituloAval1{
     margin-left: 70px;
@@ -775,9 +772,15 @@ input[type="radio"]:checked {
     line-height: normal;
 }
 
+
+
 .divSlider{
+    margin-left: 370px;
+    width: 1180px; /* mesma largura dos seus slides */
     margin: auto;
     margin-left: 370px;
+    overflow: hidden;
+    position: relative;
 }
 
 #divAval1{
@@ -835,7 +838,7 @@ input[type="radio"]:checked {
 }
 
 .textoCarlos{
-    width: 741.569px;
+    width: 680.569px;
     color: var(--Colors-blue1100, #063643);
     font-family: Inter;
     font-size: 18px;
@@ -1012,8 +1015,17 @@ input[type="radio"]:checked {
 
 .sliderContainer{
     overflow: hidden;
-    display: flex;
     justify-content: space-between;
+    width: 300%;
+    display: flex;
+    width: 3540px; /* 3 slides × 1180px */
+}
+
+.slider {
+    width: 33.333%; /* Cada slide ocupa 1/3 do container */
+    flex-shrink: 0;
+    width: 1180px; /* largura fixa igual ao seu design */
+    flex-shrink: 0;
 }
 
 footer{

@@ -100,3 +100,69 @@ botao3.addEventListener("click", () => {
     showBanner();
 });
 // Fim botões de transição do carrossel
+
+document.addEventListener('DOMContentLoaded', function() {
+    const sliderContainer = document.querySelector('.sliderContainer');
+    const slides = document.querySelectorAll('.slider');
+    const totalSlides = slides.length;
+    let currentSlide = 0;
+    
+    // Mostrar o slide atual
+    function showSlide(n) {
+        currentSlide = (n + totalSlides) % totalSlides;
+        
+        // Calcula o deslocamento baseado na largura fixa do slide
+        const offset = -currentSlide * 1180; // 1180px é a largura do slide
+        sliderContainer.style.transform = `translateX(${offset}px)`;
+        
+        // Atualiza os números de página
+        document.querySelectorAll('.numeroPagina').forEach(el => {
+            el.textContent = currentSlide + 1;
+        });
+        
+        // Mostra/oculta botões conforme necessário
+        updateButtons();
+    }
+    
+    // Atualiza a visibilidade dos botões
+    function updateButtons() {
+        // Oculta btnAval no último slide
+        if (currentSlide === totalSlides - 1) {
+            document.querySelectorAll('.btnAval').forEach(btn => {
+                btn.style.display = 'none';
+            });
+        } else {
+            document.querySelectorAll('.btnAval').forEach(btn => {
+                btn.style.display = 'inline-flex';
+            });
+        }
+        
+        // Oculta btnAtras no primeiro slide
+        if (currentSlide === 0) {
+            document.querySelectorAll('.btnAtras').forEach(btn => {
+                btn.style.display = 'none';
+            });
+        } else {
+            document.querySelectorAll('.btnAtras').forEach(btn => {
+                btn.style.display = 'inline-flex';
+            });
+        }
+    }
+    
+    // Event listeners para os botões de próximo
+    document.querySelectorAll('.btnAval').forEach(btn => {
+        btn.addEventListener('click', function() {
+            showSlide(currentSlide + 1);
+        });
+    });
+    
+    // Event listeners para os botões de anterior
+    document.querySelectorAll('.btnAtras').forEach(btn => {
+        btn.addEventListener('click', function() {
+            showSlide(currentSlide - 1);
+        });
+    });
+    
+    // Inicializa o carrossel
+    showSlide(0);
+});

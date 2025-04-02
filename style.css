@@ -81,8 +81,19 @@ header {
 }
 /*Cabeçalho*/
 
+::-webkit-scrollbar {
+    display: none;
+  }
+
+html{
+    overflow: hidden;
+    overflow-y: scroll;
+}
+
 body {
     background-color: #e0f3f8;
+    overflow: hidden;
+    overflow-y: scroll;
 }
 
 .titulodiv1{
@@ -1000,6 +1011,293 @@ label {
 /* Formulário */
 /* Fim Container Contato */
 
+
+
+#tituloAval1{
+    margin-left: 70px;
+    color: var(--Colors-blue1100, #063643);
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+#tituloAval2{
+    margin-left: 70px;
+    color: var(--Colors-blue1100, #063643);
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+#tituloAval3{
+    margin-left: 70px;
+    color: var(--Colors-blue1100, #063643);
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+
+
+.divSlider{
+    margin-left: 370px;
+    width: 1180px; /* mesma largura dos seus slides */
+    margin: auto;
+    margin-left: 370px;
+    overflow: hidden;
+    position: relative;
+}
+
+#divAval1{
+    width: 1180px;
+    height: 626px;
+    flex-shrink: 0;
+}
+
+#divAval2{
+    width: 1180px;
+    height: 626px;
+    flex-shrink: 0;
+}
+
+#divAval3{
+    width: 1180px;
+    height: 626px;
+    flex-shrink: 0;
+}
+
+#carlos{
+    display: flex;
+    flex-direction: row;
+    margin-left: 70px;
+    margin-top: 43px;
+    margin-bottom: 15px;
+}
+
+#joao{
+    display: flex;
+    flex-direction: row;
+    margin-left: 70px;
+    margin-top: 43px;
+    margin-bottom: 15px;
+}
+
+#matheus{
+    display: flex;
+    flex-direction: row;
+    margin-left: 70px;
+    margin-top: 43px;
+    margin-bottom: 15px;
+}
+
+#avalCarlos{
+    margin-left: 27.72px;
+}
+
+#avalJoao{
+    margin-left: 27.72px;
+}
+
+#avalMatheus{
+    margin-left: 27.72px;
+}
+
+.textoCarlos{
+    width: 680.569px;
+    color: var(--Colors-blue1100, #063643);
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-top: 6px;
+    margin-bottom: 6px;
+}
+
+#neymar{
+    display: flex;
+    flex-direction: row;
+    margin-left: 70px;
+    margin-top: 12px;
+    margin-bottom: 15px;
+}
+
+#adamilton{
+    display: flex;
+    flex-direction: row;
+    margin-left: 70px;
+    margin-top: 12px;
+    margin-bottom: 15px;
+}
+
+#luiz{
+    display: flex;
+    flex-direction: row;
+    margin-left: 70px;
+    margin-top: 12px;
+    margin-bottom: 15px;
+}
+
+.textoAdamilton{
+    width: 741.569px;
+    color: var(--Colors-blue1100, #063643);
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-top: 6px;
+    margin-bottom: 6px;
+    line-height: 1.5;
+}
+
+.textoNeymar{
+    width: 741.569px;
+    color: var(--Colors-blue1100, #063643);
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-top: 6px;
+    margin-bottom: 6px;
+    line-height: 1.5;
+}
+
+#avalAdamilton{
+    margin-left: 27.72px;
+}
+
+#avalNeymar{
+    margin-left: 27.72px;
+}
+
+#avalLuiz{
+    margin-left: 27.72px;
+}
+
+#jose{
+    display: flex;
+    flex-direction: row;
+    margin-left: 70px;
+    margin-top: 12px;
+    margin-bottom: 15px;
+}
+
+#lu{
+    display: flex;
+    flex-direction: row;
+    margin-left: 70px;
+    margin-top: 12px;
+    margin-bottom: 15px;
+}
+
+#cla{
+    display: flex;
+    flex-direction: row;
+    margin-left: 70px;
+    margin-top: 12px;
+    margin-bottom: 15px;
+}
+
+#avalLu{
+    margin-left: 27.72px;
+}
+
+#avalJose{
+    margin-left: 27.72px;
+}
+
+#avalCla{
+    margin-left: 27.72px;
+}
+
+.textoJose{
+    width: 741.569px;
+    color: var(--Colors-blue1100, #063643);
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-top: 6px;
+    margin-bottom: 6px;
+    line-height: 1.2;
+}
+
+#botao1{
+    margin-left: 1038px;
+    display: flex;
+    flex-direction: row;
+}
+
+#botao2{
+    margin-left: 969px;
+    display: flex;
+    flex-direction: row;
+}
+
+#botao3{
+    margin-left: 969px;
+    display: flex;
+    flex-direction: row;
+}
+
+.numeroPagina{
+    color: var(--Colors-blue1100, #063643);
+    font-family: Poppins;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 30px; /* 166.667% */
+    letter-spacing: 0.18px;
+}
+
+.btnAval{
+    display: inline-flex;
+    padding: 5px 10px;
+    align-items: center;
+    gap: 10px;
+    border-radius: 8px;
+    border: 1px solid var(--Colors-blue1100, #063643);
+    margin-left: 14px;
+    background-color: #e0f3f8;
+    cursor: pointer;
+}
+
+.btnAtras{
+    display: inline-flex;
+    padding: 5px 10px;
+    align-items: center;
+    gap: 10px;
+    border-radius: 8px;
+    border: 1px solid var(--Colors-blue1100, #063643);
+    margin-left: 14px;
+    background-color: #e0f3f8;
+    cursor: pointer;
+    margin-right: 10px;
+}
+
+.sliderContainer{
+    overflow: hidden;
+    justify-content: space-between;
+    width: 300%;
+    display: flex;
+    width: 3540px; /* 3 slides × 1180px */
+}
+
+.slider {
+    width: 33.333%; /* Cada slide ocupa 1/3 do container */
+    flex-shrink: 0;
+    width: 1180px; /* largura fixa igual ao seu design */
+    flex-shrink: 0;
+}
 
 footer{
     background-color: #063643;

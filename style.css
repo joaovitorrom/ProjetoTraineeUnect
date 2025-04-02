@@ -742,7 +742,7 @@ input[type="radio"]:checked {
 
 /* Seção Entre em Contato */
 #entreContato {
-    margin-left: 503px;
+    margin-left: 450px;
     color: var(--Colors-blue1100, #063643);
     font-family: Inter;
     font-size: 24px;
@@ -1003,6 +1003,7 @@ label {
     font-weight: 700;
     line-height: normal;
     cursor: pointer;
+    border: none;
 }
 
 #botao-form:hover{
@@ -1272,6 +1273,18 @@ label {
     cursor: pointer;
 }
 
+.btnAval:hover{
+    display: inline-flex;
+    padding: 5px 10px;
+    align-items: center;
+    gap: 10px;
+    margin-left: 14px;
+    cursor: pointer;
+    border-radius: 8px;
+    border: 1px solid #063643;
+    background: #6BB7CB;
+}
+
 .btnAtras{
     display: inline-flex;
     padding: 5px 10px;
@@ -1283,6 +1296,18 @@ label {
     background-color: #e0f3f8;
     cursor: pointer;
     margin-right: 10px;
+}
+
+.btnAtras:hover{
+    display: inline-flex;
+    padding: 5px 10px;
+    align-items: center;
+    gap: 10px;
+    margin-left: 14px;
+    cursor: pointer;
+    border-radius: 8px;
+    border: 1px solid #063643;
+    background: #6BB7CB;
 }
 
 .sliderContainer{

@@ -4,22 +4,28 @@
         <meta charset="UTF-8">  <!-- Define codificação (acentos)-->
         <meta name="viewport" content="width=device-width, initial-scale=1.0">  <!-- Responsividade em Móveis-->
         <title>Pindorama</title>  <!-- Título da página -->
-        <link rel="stylesheet" type="text/css" href="style.css">  <!-- Importa o arquivo de CSS -->
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <link rel="stylesheet" type="text/css" href="mobile-style.css">  <!-- Importa o arquivo de responsividade mobile -->
         <link rel="icon" type="image/png" href="assets/images/logoicone.png">
     </head>
     <body>
         <header>
-            <div class="menuHeader">
-                <img src="assets/images/Logo-horizontal.svg" alt="Logo Pindorama">
+            <div class="desktop-only" class="menuHeader" >
+                <img src="assets/images/Logo-horizontal.svg" alt="Logo Pindorama" class="desktop-only">
             
-                <section class="botoesHeader">
+                <section class="botoesHeader desktop-only">
                     <button class="tipografiaBotoesHeader" id="botaoinicio">Início</button>
                     <button class="tipografiaBotoesHeader" id="botaoservicos">Serviços</button>
                     <button class="tipografiaBotoesHeader" id="botaosobre">Sobre nós</button>
                     <button class="tipografiaBotoesHeader" id="botaocontato">Contato</button>
                 </section>
             </div>
+            <div class="mobile-only" id="cabecalhoMobile">
+                <img src="assets/images/Menu.svg" alt="Menu Mobile" id="menuMobile">
+                <img src="assets/images/Layer_2.svg" alt="Logo Mobile" id="logoMobile">
+            </div>
         </header>
+
         <div class="contato">
             <h1 class="titulodiv1">Cuidando do Seu Pet com Profissionalismo e Carinho</h1>
             <button class="botaocontato">Entre em contato</button>

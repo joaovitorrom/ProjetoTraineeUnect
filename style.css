@@ -6,6 +6,26 @@
   box-sizing: border-box;
 }
 
+/* Responsividade */
+.desktop-only, .mobile-only {
+    display: none;
+}
+
+/* Mostra no desktop (a partir de 450px) */
+@media screen and (min-width: 393px) {
+    .desktop-only {
+      display: flex;
+    }
+}
+
+/* Mostra no mobile (até 450px) */
+@media screen and (max-width: 393px) {
+    .mobile-only {
+      display: flex;
+    }
+}
+/* Responsividade */
+
 /*Cabeçalho*/
 header {
     position: fixed;

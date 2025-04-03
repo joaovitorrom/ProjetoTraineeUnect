@@ -1,0 +1,20 @@
+@media (max-width: 393px) {
+    body {
+        max-width: 100%;
+    }
+
+    header {
+        position: static;
+        padding-top: 33px;
+        background-color: #E2F5FA;
+    }
+    
+    #cabecalhoMobile{
+        display: inline-flex;
+        padding: 18px 143px 18px 17px;
+        align-items: center;
+        gap: 93px;
+        background: #F8F8FF;
+    }
+}
+

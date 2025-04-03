@@ -494,7 +494,6 @@ input[type="radio"]:checked {
 
 
 .quemSomos{
-    max-width: 100%;
     height: 300px;
     background-image: url("assets/images/fundoAnimaisQuem.svg");
     margin: auto;

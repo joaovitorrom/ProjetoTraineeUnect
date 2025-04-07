@@ -11,14 +11,14 @@
     display: none;
 }
 
-/* Mostra no desktop (a partir de 450px) */
+/* Mostra no desktop (a partir de 393px) */
 @media screen and (min-width: 393px) {
     .desktop-only {
       display: flex;
     }
 }
 
-/* Mostra no mobile (até 450px) */
+/* Mostra no mobile (até 393px) */
 @media screen and (max-width: 393px) {
     .mobile-only {
       display: flex;

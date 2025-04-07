@@ -4,6 +4,7 @@
     }
 
     header {
+        margin-top: 0;
         position: static;
         padding-top: 33px;
         background-color: #E2F5FA;

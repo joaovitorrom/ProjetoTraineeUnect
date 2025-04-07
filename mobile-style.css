@@ -17,5 +17,178 @@
         gap: 93px;
         background: #F8F8FF;
     }
+
+    /* Nossos profissionais */
+    .nossosProfissionais {
+        width: 393px;
+        height: 493px;
+        flex-shrink: 0;
+        margin: auto;
+        border-radius: 8px;
+        background: #F8F8FF;
+    }
+    
+    /* Tipografia */
+    #tituloDivPro {
+        position: absolute;
+        color: #063643;
+        font-family: Poppins;
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        top: 44px;
+        left: 80px;
+    }
+    
+    .tipoNomesPro {
+        color: #063643;
+        font-family: Inter;
+        font-size: 15.248px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+    }
+    
+    .tipoCargo {
+        color: #063643;
+        font-family: Inter;
+        font-size: 10.812px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+    }
+    /* Tipografia */
+
+    /* Posicionamento */
+    #medico1 {
+        width: 166px;
+        height: 166px;
+        flex-shrink: 0;
+        top: 17px;
+        left: 21px;
+    }
+
+    #medico2 {
+        width: 166px;
+        height: 166px;
+        flex-shrink: 0;
+        top: 17px;
+        left: 207px;
+    }
+
+    #medico3 {
+        width: 166px;
+        height: 166px;
+        flex-shrink: 0;
+        top: 248px;
+        left: 21px;
+    }
+
+    #medico4 {
+        width: 166px;
+        height: 166px;
+        flex-shrink: 0;
+        top: 248px;
+        left: 207px;
+    }
+
+    #nomeMed1 {
+        display: flex;
+        width: 141.643px;
+        height: 11.894px;
+        flex-direction: column;
+        justify-content: center;
+        flex-shrink: 0;
+        top: 192.18px;
+        left: 40.89px;
+        padding-bottom: 9.16px;
+    }
+
+    #nomeMed2 {
+        display: flex;
+        width: 81px;
+        height: 12px;
+        flex-direction: column;
+        justify-content: center;
+        flex-shrink: 0;
+        top: 192px;
+        left: 250px;
+        padding-bottom: 9px;
+    }
+
+    #nomeMed3 {
+        display: flex;
+        width: 96px;
+        height: 11px;
+        flex-direction: column;
+        justify-content: center;
+        flex-shrink: 0;
+        top: 423px;
+        left: 57px;
+        padding-bottom: 9px;
+    }
+
+    #nomeMed4 {
+        display: flex;
+        width: 72px;
+        height: 12px;
+        flex-direction: column;
+        justify-content: center;
+        flex-shrink: 0;
+        top: 422px;
+        left: 253px;
+        padding-bottom: 8px;
+    }
+
+    #cargoMed1 {
+        display: flex;
+        width: 116px;
+        height: 7px;
+        flex-direction: column;
+        justify-content: center;
+        flex-shrink: 0;
+        top: 212px;
+        left: 50px;
+        padding-bottom: 9.16px;
+    }
+
+    #cargoMed2 {
+        display: flex;
+        width: 130px;
+        height: 8px;
+        flex-direction: column;
+        justify-content: center;
+        flex-shrink: 0;
+        top: 211px;
+        left: 225px;
+        padding-bottom: 7px;
+    }
+
+    #cargoMed3 {
+        display: flex;
+        width: 49px;
+        height: 7px;
+        flex-direction: column;
+        justify-content: center;
+        flex-shrink: 0;
+        top: 442px;
+        left: 80px;
+        padding-bottom: 9px;
+    }
+
+    #cargoMed4 {
+        display: flex;
+        width: 75px;
+        height: 8px;
+        flex-direction: column;
+        justify-content: center;
+        flex-shrink: 0;
+        top: 442px;
+        left: 253px;
+        padding-bottom: 8px;
+    }
+    /* Posicionamento */
+
 }
 

@@ -16,6 +16,69 @@
         align-items: center;
         gap: 93px;
         background: #F8F8FF;
+        position: relative; /* importante! */
+        z-index: 2; /* na frente */
+    }
+
+    #cDO{
+        display: none;
+    }
+    #lDO{
+        display: none;
     }
 }
 
+
+#elipse{
+    margin-left: 15px;
+    margin-top: -51px;
+    position: relative; /* ou absolute, dependendo do layout */
+    z-index: 1; /* atrás */
+}
+
+#tituloContato{
+    width: 218px;
+    color: var(--Colors-blue1100, #063643);
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    position: relative;
+    top: -180px;
+    margin-left: 33px;
+    z-index: 3;
+    margin-top: 16px;
+}
+
+#imgDog{
+    width: 331px;
+    height: 120px;
+    margin-left: 39px;
+    position: relative;
+    bottom: 230px;
+    z-index: 3;
+}
+
+#btnCtt{
+    display: flex;
+    width: 169px;
+    height: 40px;
+    padding: 5.556px 2.778px;
+    justify-content: center;
+    align-items: center;
+    gap: 5.556px;
+    flex-shrink: 0;
+    border-radius: 4.444px;
+    background: var(--Colors-blue1000, #0F637A);
+    color: #F8F8FF;
+    font-family: Poppins;
+    font-size: 15.556px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    border: none;
+    margin-left: 108px;
+    position: relative;
+    bottom: 225px;
+}

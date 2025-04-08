@@ -19,7 +19,7 @@
 }
 
 /* Mostra no mobile (até 393px) */
-@media screen and (max-width: 393px) {
+@media screen and (max-width: 394px) {
     .mobile-only {
       display: block;
     }

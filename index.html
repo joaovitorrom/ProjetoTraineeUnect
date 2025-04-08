@@ -28,7 +28,7 @@
             </div>
         </header>
 
-        <div class="contato">
+        <div class="contato desktop-only">
             <h1 class="titulodiv1">Cuidando do Seu Pet com Profissionalismo e Carinho</h1>
             <button class="botaocontato">Entre em contato</button>
             <div class="imagenscachorros">
@@ -37,8 +37,15 @@
             <img src="assets/images/Waveform.svg" alt="Estilo" id="waveform">
         </div>
 
+        <div class="mobile-only" id="contatoMobile">
+            <img src="assets/images/Ellipse 5.svg" id="elipse">
+            <h1 id="tituloContato">Cuidamos do seu animal com muito amor</h1>
+            <img src="assets/images/imagemcachorros11.svg" alt="Cachorros" id="imgDog">
+            <button id="btnCtt">Entre em contato</button>
+        </div>
 
-        <div class="carrossel"> <!-- Carrosel --> 
+
+        <div class="carrossel" id="cDO"> <!-- Carrosel --> 
             <div class="seletor"> <!-- Botões de seleção -->
                 <input type="radio" name="radio-btn" id="radio-btn1" checked>
                 <input type="radio" name="radio-btn" id="radio-btn2">
@@ -78,7 +85,7 @@
         
 
 
-        <div class="quemSomos" id="quem">
+        <div class="quemSomos desktop-only" id="quem">
             <img src="assets/images/logoQuem.svg" alt="logo pindorama" id="logoQuem">
             <div class="textoQuem">
                 <h1 id="tituloQuem">Quem somos?</h1>
@@ -86,7 +93,17 @@
             </div>
         </div>
 
-        <div class="nossosServicos" id="servicos">
+        <div class="mobile-only" id="quemMob">
+            <div id="itensQuem">
+                    <h1 id="titQuem">Quem somos?</h1>
+                    <img src="assets/images/logomob.svg" alt="logo" id="logoQuemMob">
+                    <p id="pQuem">Nossa clínica veterinária é comprometida com o cuidado e bem-estar de cada pet, com uma equipe dedicada e instalações modernas, buscamos garantir saúde e conforto em cada atendimento.</p>
+                    <h1 id="saidaQuem">Cuidamos do seu animalzinho com amor!</h1>
+            </div>
+        </div>
+
+
+        <div class="nossosServicos desktop-only" id="servicos">
             <div class="tituloFotoServicos">
                 <div class="tituloServicos">    
                     <h1 id="tituloServicos">Nossos serviços</h1>
@@ -96,12 +113,24 @@
             <p id="textoServicos">Na nossa clínica veterinária, cada consulta é realizada com dedicação e atenção aos detalhes, garantindo o melhor cuidado para o seu pet. Contamos com uma equipe experiente e atualizada para oferecer diagnósticos precisos e tratamentos eficazes. </p>
         </div>
 
-        <div class="divTerceira">
+
+        <div class="mobile-only" id="nosMob">
+            <div id="itensNos">
+                <h1 id="titNos">Nossos serviços visam o cuidado do seu pet </h1>
+                <p id="textNos">Na nossa clínica veterinária, cada consulta é realizada com dedicação e atenção aos detalhes, garantindo o melhor cuidado para o seu pet.</p>
+                <button id="btnNos">Agende uma consulta</button>
+                <img src="assets/images/gatoNos.svg" id="gatoNos" alt="gato">
+            </div>
+        </div>
+
+
+
+        <div class="divTerceira desktop-only">
             <img src="assets/images/golden.svg" alt="veterinaria" id="fotodiv3">
             <p id="textodiv3">Nós cuidamos do seu pet com o carinho e respeito que ele merece. Nossa equipe dedica atenção a cada detalhe, proporcionando um ambiente acolhedor e seguro para que seu animalzinho se sinta em casa.</p>
         </div>
 
-        <div class= "nossosProfissionais">
+        <div class= "nossosProfissionais desktop-only">
             <h1 id="tituloDivPro">Nossos Profissionais</h1>
                 <img src="assets/images/medico1.png" alt="Carlos de Souza" id="medico1">
                 <h2 class="tipoNomesPro" id="nomeMed1">Carlos de Souza</h2>
@@ -121,7 +150,7 @@
                     <h3 class="tipoCargo" id="cargoMed4">Anestesiologia</h3>
 
         </div>
-        <div class="divSlider">
+        <div class="divSlider desktop-only">
                 <div class="sliderContainer">
                         <div class="slider" id="slider1">
                             <h1 id="tituloAval1">Avaliações (34)</h1>
@@ -286,8 +315,8 @@
 
         </div> 
         
-        <h1 id="entreContato">Entre em contato</h1>
-        <div class="container-contato">
+        <h1 id="entreContato" class="desktop-only">Entre em contato</h1>
+        <div class="container-contato" id="lDO">
             <div class="info-form">
                 <h2 id="tituloInfo">Localização</h2>
                 <p id="endereco"> 
@@ -330,9 +359,35 @@
                         <button type="submit" id="botao-form">ENVIAR</button>
                 </form>
             </div>
-        </div>             
+        </div>
 
-        <footer>
+        <div class="mobile-only">
+            <div id="posRedMob">
+                <img src="assets/images/redesMob.png" alt="redes">
+            </div>
+        </div>
+
+
+        <footer id="rodmob" class="mobile-only">
+            <div id="brancorodape">
+                <span id="texto1">
+                    <h1 class="tituloRodMob">NOSSOS SERVIÇOS</h1>
+                    <p class="textoRodMob">SOBRE NÓS</p>
+                    <p class="textoRodMob">CONSULTA VETERINÁRIA</p>
+                    <p class="textoRodMob">NOSSOS SERVIÇOS</p>
+                </span>
+                <span id="texto2">
+                    <h1 class="tituloRodMob">INSTITUCIONAL</h1>
+                    <p class="textoRodMob">PROGRAMA DE ADOÇÃO</p>
+                    <p class="textoRodMob">TERMOS DE COMPROMISSO</p>
+                    <p class="textoRodMob">UNECT JR</p>
+                </span>
+            </div>
+            <img src="assets/images/fundorodamob.png" alt="rodape">
+        </footer>
+
+
+        <footer class="desktop-only" id="cbD">
             <div class="rodape">
                 <div class="logorodape">
                     <img src="assets/images/logo.svg" alt="Logo Pindorama">

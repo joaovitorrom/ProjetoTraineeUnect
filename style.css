@@ -12,7 +12,7 @@
 }
 
 /* Mostra no desktop (a partir de 393px) */
-@media screen and (min-width: 393px) {
+@media screen and (min-width: 394px) {
     .desktop-only {
       display: block;
     }
@@ -1344,7 +1344,7 @@ label {
     flex-shrink: 0;
 }
 
-footer{
+#cbD{
     background-color: #063643;
 }
 

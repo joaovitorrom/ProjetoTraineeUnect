@@ -209,6 +209,7 @@
         margin: auto;
         border-radius: 8px;
         background: #F8F8FF;
+        bottom: 100px;
     }
     
     /* Tipografia */
@@ -424,5 +425,108 @@
     #posRedMob{
         margin-left: 67px;
         margin-bottom: 35px;
+        margin-top: 35px;
     }
+}
+
+
+#posMobCont{
+    height: 529px;
+    width: 100vw;
+    background-color: #FAFDFF;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#itensMobCont{
+    margin-top: 18px;
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+}
+
+#inputsMobCont{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    margin-top: 19px;
+}
+
+#h1MobCont{
+    color: var(--Colors-blue1100, #063643);
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.labelMob{
+    color: var(--Colors-blue1100, #063643);
+    font-family: Inter;
+    font-size: 13.1px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+#mobNome{
+    width: 340.6px;
+    height: 39.3px;
+    border-radius: 5.24px;
+    border: 1.12px solid rgba(0, 0, 0, 0.40);
+    box-shadow: 0px 1.31px 1.31px 0px rgba(0, 0, 0, 0.15);
+    position: relative;
+    bottom: 12px;
+}
+
+#mobSobren{
+    width: 340.6px;
+    height: 39.3px;
+    border-radius: 5.24px;
+    border: 1.12px solid rgba(0, 0, 0, 0.40);
+    box-shadow: 0px 1.31px 1.31px 0px rgba(0, 0, 0, 0.15);
+    position: relative;
+    bottom: 12px;
+}
+
+#mobEmail{
+    width: 340.6px;
+    height: 39.3px;
+    border-radius: 5.24px;
+    border: 1.12px solid rgba(0, 0, 0, 0.40);
+    box-shadow: 0px 1.31px 1.31px 0px rgba(0, 0, 0, 0.15);
+    position: relative;
+    bottom: 12px;
+}
+
+#mobMens{
+    width: 340.6px;
+    height: 78.6px;
+    border-radius: 5.24px;
+    border: 1.12px solid rgba(0, 0, 0, 0.40);
+    box-shadow: 0px 1.31px 1.31px 0px rgba(0, 0, 0, 0.15);
+    position: relative;
+    bottom: 12px;
+}
+
+#btnMobCont{
+    display: flex;
+    width: 147.35px;
+    height: 56.28px;
+    border-radius: 8.186px;
+    background: var(--Colors-blue1000, #0F637A);
+    border: none;
+    color: #F8F8FF;
+    font-family: Poppins;
+    font-size: 20.465px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 14.23px;
 }

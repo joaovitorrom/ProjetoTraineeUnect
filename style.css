@@ -43,21 +43,21 @@ header {
 
 .menuHeader {
     display: inline-flex;
-    padding: 2.1875rem 23.125rem 2.1985rem 24.375rem; /* 35px 370px 35.176px 390px */
+    padding: 35px 370px 35.176px 390px; 
     justify-content: flex-end;
     align-items: center;
-    gap: 24.4375rem; /* 391px */
+    gap: 391px; 
 }
 
 
 .botoesHeader {
     background-color: #f7f7fe;
     display: flex;
-    width: 519px; /* 519px */
-    height: 36px;    /* 36px */
+    width: 519px; 
+    height: 36px;    
     justify-content: center;
     align-items: flex-start;
-    gap: 35px;     /* 35px */
+    gap: 35px;     
     border: none;
     position: relative;
     right: -10px;
@@ -514,12 +514,19 @@ input[type="radio"]:checked {
 }
 /* Fim do Carrossel */
 
+/* Início da seção abaixo do Carrossel */
+.section-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    margin: 0 auto;
+}
 
 .quemSomos {
-
-    height: 18.75rem; /* 300px */
+    width: 1920px;
+    height: 300px; 
     background-image: url("assets/images/fundoAnimaisQuem.svg");
-    margin: auto;
     background-color: #8ad3e6;
 }
 
@@ -531,8 +538,8 @@ input[type="radio"]:checked {
 }
 
 .textoQuem {
-    margin-left: 53.875rem; /* 862px */
-    margin-top: -16.875rem; /* -270px */
+    margin-left: 862px; 
+    margin-top: -270px; 
 }
 
 #tituloQuem{
@@ -551,24 +558,23 @@ input[type="radio"]:checked {
     font-size: 20px;
     font-style: normal;
     font-weight: 400;
-    line-height: 26px; /* 130% */
+    line-height: normal; 
     letter-spacing: 0.4px;
     width: 699px;
 }
 
 .nossosServicos {
-    max-width: 100%;
-    height: 26.1406rem; /* 418.25px */
+    width: 1920px;
+    height: 418.25px; 
     background-image: url("assets/images/fundoAnimaisQuem.svg");
-    margin: auto;
     background-color: #63B3C9;
 }
 
 
 .tituloFotoServicos {
-    margin-left: 28.125rem; /* 450px */
+    margin-left: 450px; 
     position: relative;
-    top: 3.3125rem;         /* 53px */
+    top: 53px;         
 }
 
 #tituloServicos{
@@ -607,11 +613,10 @@ input[type="radio"]:checked {
 }
 
 .divTerceira {
-    height: 20.3125rem; /* 325px */
-    max-width: 100%;
+    width: 1920px;
+    height: 325px; 
     background-image: url("assets/images/fundoAnimaisQuem.svg");
     background-color: #8ad3e6;
-    margin: auto;
 }
 
 #fotodiv3{
@@ -635,6 +640,8 @@ input[type="radio"]:checked {
     margin-left: 466px;
     margin-top: -190px;
 }
+/* Fim da seção abaixo do Carrossel */
+
 
 /* Nossos profissionais*/
 /* Tipografia*/
@@ -1344,20 +1351,24 @@ label {
 }
 
 #rodape{
-    max-width: 100%;
-
+    width: 100%;
 }
 
 .rodape{
     background-color: #F8F8FF;
     max-width: 100%;
-    height: 250px;
+    height: 232px;
     flex-shrink: 0;
     display: flex;
     flex-direction: row;
     justify-content: center;
+}
+
+.conteudoRodape {
+    display: inline-flex;
     gap: 100px;
-    padding-top: 38px;
+    padding-top: 33px;
+    margin-left: -130px;
 }
 
 li{
@@ -1386,7 +1397,7 @@ ul{
     gap: 8px;
 }
 .rodape1{
-    padding-top: 12px;
+    padding-top: 5px;
 }
 
 .logorodape {
@@ -1396,4 +1407,8 @@ ul{
 
 #contatorodape {
     padding-bottom: 12px;
+}
+
+.servicorodape{
+    margin-top: 1px;
 }

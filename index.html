@@ -3,7 +3,7 @@
     <head>
         <meta charset="UTF-8">  <!-- Define codificação (acentos)-->
         <meta name="viewport" content="width=device-width, initial-scale=1.0">  <!-- Responsividade em Móveis-->
-        <title>Pindorama</title>  <!-- Título da página -->
+        <title>Pindorama Pets</title>  <!-- Título da página -->
         <link rel="stylesheet" type="text/css" href="style.css">
         <link rel="stylesheet" type="text/css" href="mobile-style.css">  <!-- Importa o arquivo de responsividade mobile -->
         <link rel="icon" type="image/png" href="assets/images/logoicone.png">
@@ -83,37 +83,40 @@
             </div> <!-- Terceiro Banner -->
         </div> <!-- Carrosel --> 
         
-
-
-        <div class="quemSomos desktop-only" id="quem">
-            <img src="assets/images/logoQuem.svg" alt="logo pindorama" id="logoQuem">
-            <div class="textoQuem">
-                <h1 id="tituloQuem">Quem somos?</h1>
-                <p id="textoQuem">Nossa clínica veterinária é comprometida com o cuidado e bem-estar de cada pet, com uma equipe dedicada e instalações modernas, buscamos garantir saúde e conforto em cada atendimento. Cuidamos do seu animalzinho como se fosse nosso!</p>
-            </div>
-        </div>
-
-        <div class="mobile-only" id="quemMob">
-            <div id="itensQuem">
-                    <h1 id="titQuem">Quem somos?</h1>
-                    <img src="assets/images/logomob.svg" alt="logo" id="logoQuemMob">
-                    <p id="pQuem">Nossa clínica veterinária é comprometida com o cuidado e bem-estar de cada pet, com uma equipe dedicada e instalações modernas, buscamos garantir saúde e conforto em cada atendimento.</p>
-                    <h1 id="saidaQuem">Cuidamos do seu animalzinho com amor!</h1>
-            </div>
-        </div>
-
-
-        <div class="nossosServicos desktop-only" id="servicos">
-            <div class="tituloFotoServicos">
-                <div class="tituloServicos">    
-                    <h1 id="tituloServicos">Nossos serviços</h1>
+        <div class="section-container">
+            <div class="quemSomos desktop-only" id="quem">
+                <img src="assets/images/logoQuem.svg" alt="logo pindorama" id="logoQuem">
+                <div class="textoQuem">
+                    <h1 id="tituloQuem">Quem somos?</h1>
+                    <p id="textoQuem">Nossa clínica veterinária é comprometida com o cuidado e bem-estar de cada pet, com uma equipe dedicada e instalações modernas, buscamos garantir saúde e conforto em cada atendimento. Cuidamos do seu animalzinho como se fosse nosso!</p>
                 </div>
-                    <img src="assets/images/nossosServicos.svg" alt="fotovet" id="logoServicos">
             </div>
-            <p id="textoServicos">Na nossa clínica veterinária, cada consulta é realizada com dedicação e atenção aos detalhes, garantindo o melhor cuidado para o seu pet. Contamos com uma equipe experiente e atualizada para oferecer diagnósticos precisos e tratamentos eficazes. </p>
+            
+            <div class="nossosServicos desktop-only" id="servicos">
+                <div class="tituloFotoServicos">
+                    <div class="tituloServicos">    
+                        <h1 id="tituloServicos">Nossos serviços</h1>
+                    </div>
+                    <img src="assets/images/nossosServicos.svg" alt="fotovet" id="logoServicos">
+                </div>
+                <p id="textoServicos">Na nossa clínica veterinária, cada consulta é realizada com dedicação e atenção aos detalhes, garantindo o melhor cuidado para o seu pet. Contamos com uma equipe experiente e atualizada para oferecer diagnósticos precisos e tratamentos eficazes. </p>
+            </div>
+            
+            <div class="divTerceira desktop-only">
+                <img src="assets/images/golden.svg" alt="veterinaria" id="fotodiv3">
+                <p id="textodiv3">Nós cuidamos do seu pet com o carinho e respeito que ele merece. Nossa equipe dedica atenção a cada detalhe, proporcionando um ambiente acolhedor e seguro para que seu animalzinho se sinta em casa.</p>
+            </div>
         </div>
-
-
+        
+    
+         <div class="mobile-only" id="quemMob">
+             <div id="itensQuem">
+                <h1 id="titQuem">Quem somos?</h1>
+                <img src="assets/images/logomob.svg" alt="logo" id="logoQuemMob">
+                <p id="pQuem">Nossa clínica veterinária é comprometida com o cuidado e bem-estar de cada pet, com uma equipe dedicada e instalações modernas, buscamos garantir saúde e conforto em cada atendimento.</p>
+                <h1 id="saidaQuem">Cuidamos do seu animalzinho com amor!</h1>
+            </div>
+        </div>
         <div class="mobile-only" id="nosMob">
             <div id="itensNos">
                 <h1 id="titNos">Nossos serviços visam o cuidado do seu pet </h1>
@@ -122,12 +125,7 @@
                 <img src="assets/images/gatoNos.svg" id="gatoNos" alt="gato">
             </div>
         </div>
-
-        <div class="divTerceira desktop-only">
-            <img src="assets/images/golden.svg" alt="veterinaria" id="fotodiv3">
-            <p id="textodiv3">Nós cuidamos do seu pet com o carinho e respeito que ele merece. Nossa equipe dedica atenção a cada detalhe, proporcionando um ambiente acolhedor e seguro para que seu animalzinho se sinta em casa.</p>
-        </div>
-
+        
         <div class= "nossosProfissionais desktop-only">
             <h1 id="tituloDivPro">Nossos Profissionais</h1>
                 <img src="assets/images/medico1.png" alt="Carlos de Souza" id="medico1">
@@ -430,26 +428,28 @@
 
         <footer class="desktop-only" id="cbD">
             <div class="rodape">
-                <div class="logorodape">
-                    <img src="assets/images/logo.svg" alt="Logo Pindorama">
-                </div>
-                <div class="servicorodape">
-                    <ul class="titulorodape">NOSSOS SERVIÇOS
-                        <li class="rodape1">SOBRE NÓS</li>
-                        <li>CONSULTA VETERINÁRIA</li>
-                        <li>NOSSOS SERVIÇOS</li>
-                    </ul>
-                </div>
-                <div class="instrodape">
-                    <ul class="titulorodape">INSTITUCIONAL
-                        <li class="rodape1">PROGRAMA DE ADOÇÃO</li>
-                        <li>TERMOS DE COMPROMISSO</li>
-                        <li>UNECT JR</li>
-                    </ul>
-                </div>
-                <div class="contatorodape">
-                    <p class="titulorodape" id="contatorodape">NOSSOS CONTATOS</p>
-                    <img src="assets/images/redes.svg" alt="redes">
+                <div class="conteudoRodape">
+                    <div class="logorodape">
+                        <img src="assets/images/logo.svg" alt="Logo Pindorama">
+                    </div>
+                    <div class="servicorodape">
+                        <ul class="titulorodape">NOSSOS SERVIÇOS
+                            <li class="rodape1">SOBRE NÓS</li>
+                            <li>CONSULTA VETERINÁRIA</li>
+                            <li>NOSSOS SERVIÇOS</li>
+                        </ul>
+                    </div>
+                    <div class="instrodape">
+                        <ul class="titulorodape">INSTITUCIONAL
+                            <li class="rodape1">PROGRAMA DE ADOÇÃO</li>
+                            <li>TERMOS DE COMPROMISSO</li>
+                            <li>UNECT JR</li>
+                        </ul>
+                    </div>
+                    <div class="contatorodape">
+                        <p class="titulorodape" id="contatorodape">NOSSOS CONTATOS</p>
+                        <img src="assets/images/redes.svg" alt="redes">
+                    </div>
                 </div>
             </div>
             <img src="assets/images/roda.svg" alt="Estilo" id="rodape">

@@ -11,6 +11,8 @@
     display: none;
 }
 
+
+
 /* Mostra no desktop (a partir de 393px) */
 @media screen and (min-width: 394px) {
     .desktop-only {
@@ -31,34 +33,34 @@ header {
     position: fixed;
     top: 0;
     z-index: 2;
-    border: 1px solid rgba(0, 0, 0, 0.10);
-    background: var(--Colors-white, #F8F8FF);
-    box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.10);
     width: 100%;
+    background: var(--Colors-white, #F8F8FF);
+    box-shadow: 0 0.125rem 0.25rem 0 rgba(0, 0, 0, 0.10);
+    display: flex;
+    justify-content: center;
 }
 
 
 .menuHeader {
     display: inline-flex;
-    padding: 35px 370px 35.176px 390px;
+    padding: 2.1875rem 23.125rem 2.1985rem 24.375rem; /* 35px 370px 35.176px 390px */
     justify-content: flex-end;
     align-items: center;
-    gap: 391px;
+    gap: 24.4375rem; /* 391px */
 }
 
 
 .botoesHeader {
     background-color: #f7f7fe;
     display: flex;
-    width: 519px;
-    height: 36px;
+    width: 519px; /* 519px */
+    height: 36px;    /* 36px */
     justify-content: center;
     align-items: flex-start;
-    gap: 35px;
-    height: 36px;
-    border: none; 
+    gap: 35px;     /* 35px */
+    border: none;
     position: relative;
-    right: -70px;
+    right: -10px;
 }
 
 .tipografiaBotoesHeader {
@@ -513,8 +515,9 @@ input[type="radio"]:checked {
 /* Fim do Carrossel */
 
 
-.quemSomos{
-    height: 300px;
+.quemSomos {
+
+    height: 18.75rem; /* 300px */
     background-image: url("assets/images/fundoAnimaisQuem.svg");
     margin: auto;
     background-color: #8ad3e6;
@@ -527,9 +530,9 @@ input[type="radio"]:checked {
     margin-left: 459px;
 }
 
-.textoQuem{
-    margin-left: 862px;
-    margin-top: -270px;
+.textoQuem {
+    margin-left: 53.875rem; /* 862px */
+    margin-top: -16.875rem; /* -270px */
 }
 
 #tituloQuem{
@@ -553,19 +556,19 @@ input[type="radio"]:checked {
     width: 699px;
 }
 
-.nossosServicos{
+.nossosServicos {
     max-width: 100%;
-    height: 418.25px;
+    height: 26.1406rem; /* 418.25px */
     background-image: url("assets/images/fundoAnimaisQuem.svg");
     margin: auto;
     background-color: #63B3C9;
 }
 
 
-.tituloFotoServicos{
-    margin-left: 450px;
+.tituloFotoServicos {
+    margin-left: 28.125rem; /* 450px */
     position: relative;
-    top: 53px; /* Move para baixo */
+    top: 3.3125rem;         /* 53px */
 }
 
 #tituloServicos{
@@ -603,8 +606,8 @@ input[type="radio"]:checked {
     top: 53px; /* Move para baixo */
 }
 
-.divTerceira{
-    height: 325px;
+.divTerceira {
+    height: 20.3125rem; /* 325px */
     max-width: 100%;
     background-image: url("assets/images/fundoAnimaisQuem.svg");
     background-color: #8ad3e6;
@@ -760,15 +763,20 @@ input[type="radio"]:checked {
 
 
 /* Seção Entre em Contato */
+#container-entreCon{
+    max-width: 1180px;
+    margin: 0 auto;
+}
+
 #entreContato {
-    margin-left: 450px;
+    margin-left: 82px;
     color: var(--Colors-blue1100, #063643);
     font-family: Inter;
-    font-size: 24px;
+    font-size: 24px;     
     font-style: normal;
     font-weight: 700;
-    line-height: normal;    
-}
+    line-height: normal;
+  }
 
 /* Início Container Contato */
 .container-contato {
@@ -1066,31 +1074,20 @@ label {
 
 
 
-.divSlider{
-    margin-left: 370px;
-    width: 1180px; /* mesma largura dos seus slides */
+.divSlider {
+    margin-left: 370px;  
+    width: 1180px;         
     margin: auto;
-    margin-left: 370px;
     overflow: hidden;
     position: relative;
 }
 
-#divAval1{
-    width: 1180px;
-    height: 626px;
-    flex-shrink: 0;
-}
-
-#divAval2{
-    width: 1180px;
-    height: 626px;
-    flex-shrink: 0;
-}
-
-#divAval3{
-    width: 1180px;
-    height: 626px;
-    flex-shrink: 0;
+#divAval1,
+#divAval2,
+#divAval3 {
+  width: 1180px;    
+  height: 626px;   
+  flex-shrink: 0;
 }
 
 #carlos{
@@ -1329,20 +1326,18 @@ label {
     background: #6BB7CB;
 }
 
-.sliderContainer{
+.sliderContainer {
     overflow: hidden;
     justify-content: space-between;
-    width: 300%;
     display: flex;
-    width: 3540px; /* 3 slides × 1180px */
+    width: 3540px;   /* 3540px: 3 slides × 1180px */
 }
 
 .slider {
-    width: 33.333%; /* Cada slide ocupa 1/3 do container */
+    width: 1180px;    /* Cada slide ocupa 1/3 do container – mantido o mesmo valor final */
     flex-shrink: 0;
-    width: 1180px; /* largura fixa igual ao seu design */
-    flex-shrink: 0;
-}
+    margin-top: 48px;
+}  
 
 #cbD{
     background-color: #063643;

@@ -682,3 +682,62 @@
     position: relative;
     bottom: 37px;
 }
+
+#botoescarrossel{
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+}
+
+#botaoanterior1{
+    border: none;
+    outline: none; 
+    background: none;
+}
+
+
+#botaoposterior1{
+    border: none;
+    outline: none; 
+    background: none; 
+    visibility: hidden;
+}
+
+#numerocarrossel{
+    color: #063643;
+    font-family: Poppins;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 30px; /* 166.667% */
+    letter-spacing: 0.18px;
+}
+
+#botaoanterior2{
+    border: none;
+    outline: none; 
+    background: none;
+}
+
+
+#botaoposterior2{
+    border: none;
+    outline: none; 
+    background: none; 
+}
+
+#botaoanterior3{
+    border: none;
+    outline: none; 
+    background: none;
+}
+
+
+#botaoposterior3{
+    border: none;
+    outline: none; 
+    background: none; 
+    visibility: hidden;
+}

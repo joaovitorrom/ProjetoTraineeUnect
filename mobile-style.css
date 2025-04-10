@@ -613,7 +613,7 @@
     line-height: normal;
 }
 
-#avaliacaocarlos {
+.avaliacaocarlos {
     display: flex;
     flex-direction: row;
     margin-top: 33px;
@@ -621,12 +621,12 @@
     justify-content: center;
 }
 
-#fotocarlos {
+.fotocarlos {
     width: 53.436px;
     height: 52.959px;
 }
 
-#campocarlos{
+.campocarlos{
     height: 67px;
     margin-left: 19px;
 }
@@ -636,7 +636,7 @@
     flex-direction: row;
 }
 
-#nomecarlos{
+.nomecarlos{
     color: var(--Colors-blue1100, #063643);
     font-family: Inter;
     font-size: 11.916px;
@@ -646,7 +646,7 @@
     letter-spacing: 0.119px;
 }
 
-#textocarlos{
+.textocarlos{
     width: 283px;
     color: var(--Colors-blue1100, #063643);
     font-family: Inter;
@@ -663,7 +663,7 @@
     flex-shrink: 0;
 }
 
-#avaliacaoneymar{
+.avaliacaoneymar{
     display: flex;
     flex-direction: row;
     margin-top: 33px;
@@ -673,7 +673,7 @@
     bottom: 27px;
 }
 
-#avaliacaojose{
+.avaliacaojose{
     display: flex;
     flex-direction: row;
     margin-top: 33px;
@@ -683,7 +683,7 @@
     bottom: 37px;
 }
 
-#botoescarrossel{
+.botoes-carrossel{
     display: flex;
     flex-direction: row-reverse;
     align-items: center;
@@ -705,7 +705,7 @@
     visibility: hidden;
 }
 
-#numerocarrossel{
+.numerocarrossel{
     color: #063643;
     font-family: Poppins;
     font-size: 18px;

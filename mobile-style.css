@@ -594,6 +594,8 @@
     }
 }
 
+
+
 .centraltitulo {
     display: flex;
     align-items: center;
@@ -629,7 +631,10 @@
     margin-left: 19px;
 }
 
-
+#slidercontmob{
+    display: flex;
+    flex-direction: row;
+}
 
 #nomecarlos{
     color: var(--Colors-blue1100, #063643);
@@ -642,7 +647,7 @@
 }
 
 #textocarlos{
-    width: 280px;
+    width: 283px;
     color: var(--Colors-blue1100, #063643);
     font-family: Inter;
     font-size: 11.916px;

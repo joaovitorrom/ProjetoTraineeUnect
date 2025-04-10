@@ -595,6 +595,15 @@
 }
 
 
+.slider-viewport {
+    width: 355.42px;  /* <<< Use a largura exata de UM slide */
+    overflow: hidden; /* <<< ISSO ESCONDE o que transborda */
+    /* Se #slidercontmob tinha position/left/bottom, mova para cá */
+    position: relative;
+    left: 19px;
+    bottom: 37px;
+  }
+
 
 .centraltitulo {
     display: flex;
@@ -740,4 +749,13 @@
     outline: none; 
     background: none; 
     visibility: hidden;
+}
+
+#slidercontmob{
+    display: flex;
+}
+
+.sliderMob {
+    width: 355.42px; 
+    flex-shrink: 0;  
 }

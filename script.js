@@ -224,7 +224,7 @@ document.addEventListener('DOMContentLoaded', function() {
     const slidersMob = document.querySelectorAll('.sliderMob');
     const numSlidersMob = slidersMob.length;
     let currentSliderMob = 0;
-    const sliderWidthMob = 355.42; // Largura de cada slider mobile
+    const sliderWidthMob = 355.42; //largura de cada slider mobile
 
     function showSliderMob(n) {
         currentSliderMob = (n + numSlidersMob) % numSlidersMob;
@@ -237,19 +237,19 @@ document.addEventListener('DOMContentLoaded', function() {
 
     function updateMobileButtons() {
         document.querySelectorAll('.botoes-carrossel').forEach((container, index) => {
-            const nextButton = container.querySelector('.btnFrente'); // "Frente" visualmente é a seta para a direita (próximo)
-            const prevButton = container.querySelector('.btnTras');   // "Tras" visualmente é a seta para a esquerda (anterior)
+            const nextButton = container.querySelector('.btnFrente');
+            const prevButton = container.querySelector('.btnTras');
 
             if (prevButton && nextButton) {
                 if (currentSliderMob === 0) {
-                    prevButton.style.visibility = 'hidden'; // Oculta "anterior" no primeiro slide
-                    nextButton.style.visibility = 'visible'; // Mostra "próximo" no primeiro slide
+                    prevButton.style.visibility = 'hidden';
+                    nextButton.style.visibility = 'visible';
                 } else if (currentSliderMob === numSlidersMob - 1) {
-                    prevButton.style.visibility = 'visible'; // Mostra "anterior" no último slide
-                    nextButton.style.visibility = 'hidden'; // Oculta "próximo" no último slide
+                    prevButton.style.visibility = 'visible';
+                    nextButton.style.visibility = 'hidden';
                 } else {
-                    prevButton.style.visibility = 'visible'; // Mostra "anterior" nos slides intermediários
-                    nextButton.style.visibility = 'visible'; // Mostra "próximo" nos slides intermediários
+                    prevButton.style.visibility = 'visible';
+                    nextButton.style.visibility = 'visible';
                 }
             }
         });
@@ -265,8 +265,8 @@ document.addEventListener('DOMContentLoaded', function() {
     }
 
     document.querySelectorAll('.botoes-carrossel').forEach(container => {
-        const nextButton = container.querySelector('.btnFrente'); // Evento para ir para o próximo slide (direita)
-        const prevButton = container.querySelector('.btnTras');   // Evento para ir para o slide anterior (esquerda)
+        const nextButton = container.querySelector('.btnFrente');
+        const prevButton = container.querySelector('.btnTras');
 
         if (prevButton) {
             prevButton.addEventListener('click', function() {
@@ -280,7 +280,5 @@ document.addEventListener('DOMContentLoaded', function() {
             });
         }
     });
-
-    // Inicializa para mostrar o primeiro slide e ajustar os botões
     showSliderMob(0);
 });

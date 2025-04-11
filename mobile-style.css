@@ -596,12 +596,11 @@
 
 
 .slider-viewport {
-    width: 355.42px;  /* <<< Use a largura exata de UM slide */
-    overflow: hidden; /* <<< ISSO ESCONDE o que transborda */
-    /* Se #slidercontmob tinha position/left/bottom, mova para cá */
+    width: 355.42px;
+    overflow: hidden;
     position: relative;
     left: 19px;
-    bottom: 37px;
+    bottom: 52px;
   }
 
 

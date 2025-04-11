@@ -592,169 +592,169 @@
         border-radius: 8px;
         background: #063643;
     }
+    
+    .slider-viewport {
+        width: 355.42px;
+        overflow: hidden;
+        position: relative;
+        left: 19px;
+        bottom: 52px;
+      }
+    
+    
+    .centraltitulo {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .tituloslider1 {
+        width: 164px;
+        height: 14px;
+        color: var(--Colors-blue1100, #063643);
+        font-family: Poppins;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+    }
+    
+    .avaliacaocarlos {
+        display: flex;
+        flex-direction: row;
+        margin-top: 33px;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .fotocarlos {
+        width: 53.436px;
+        height: 52.959px;
+    }
+    
+    .campocarlos{
+        height: 67px;
+        margin-left: 19px;
+    }
+    
+    #slidercontmob{
+        display: flex;
+        flex-direction: row;
+    }
+    
+    .nomecarlos{
+        color: var(--Colors-blue1100, #063643);
+        font-family: Inter;
+        font-size: 11.916px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        letter-spacing: 0.119px;
+    }
+    
+    .textocarlos{
+        width: 283px;
+        color: var(--Colors-blue1100, #063643);
+        font-family: Inter;
+        font-size: 11.916px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        letter-spacing: 0.119px;
+    }
+    
+    .estrelamob{
+        width: 13.157px;
+        height: 13.24px;
+        flex-shrink: 0;
+    }
+    
+    .avaliacaoneymar{
+        display: flex;
+        flex-direction: row;
+        margin-top: 33px;
+        align-items: center;
+        justify-content: center;
+        position: relative;
+        bottom: 27px;
+    }
+    
+    .avaliacaojose{
+        display: flex;
+        flex-direction: row;
+        margin-top: 33px;
+        align-items: center;
+        justify-content: center;
+        position: relative;
+        bottom: 37px;
+    }
+    
+    .botoes-carrossel{
+        display: flex;
+        flex-direction: row-reverse;
+        align-items: center;
+        justify-content: center;
+        gap: 40px;
+    }
+    
+    #botaoanterior1{
+        border: none;
+        outline: none; 
+        background: none;
+    }
+    
+    
+    #botaoposterior1{
+        border: none;
+        outline: none; 
+        background: none; 
+        visibility: hidden;
+    }
+    
+    .numerocarrossel{
+        color: #063643;
+        font-family: Poppins;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 30px; /* 166.667% */
+        letter-spacing: 0.18px;
+    }
+    
+    #botaoanterior2{
+        border: none;
+        outline: none; 
+        background: none;
+    }
+    
+    
+    #botaoposterior2{
+        border: none;
+        outline: none; 
+        background: none; 
+    }
+    
+    #botaoanterior3{
+        border: none;
+        outline: none; 
+        background: none;
+    }
+    
+    
+    #botaoposterior3{
+        border: none;
+        outline: none; 
+        background: none; 
+        visibility: hidden;
+    }
+    
+    #slidercontmob{
+        display: flex;
+    }
+    
+    .sliderMob {
+        width: 355.42px; 
+        flex-shrink: 0;  
+    }
 }
 
-
-.slider-viewport {
-    width: 355.42px;
-    overflow: hidden;
-    position: relative;
-    left: 19px;
-    bottom: 52px;
-  }
-
-
-.centraltitulo {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.tituloslider1 {
-    width: 164px;
-    height: 14px;
-    color: var(--Colors-blue1100, #063643);
-    font-family: Poppins;
-    font-size: 20px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: normal;
-}
-
-.avaliacaocarlos {
-    display: flex;
-    flex-direction: row;
-    margin-top: 33px;
-    align-items: center;
-    justify-content: center;
-}
-
-.fotocarlos {
-    width: 53.436px;
-    height: 52.959px;
-}
-
-.campocarlos{
-    height: 67px;
-    margin-left: 19px;
-}
-
-#slidercontmob{
-    display: flex;
-    flex-direction: row;
-}
-
-.nomecarlos{
-    color: var(--Colors-blue1100, #063643);
-    font-family: Inter;
-    font-size: 11.916px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
-    letter-spacing: 0.119px;
-}
-
-.textocarlos{
-    width: 283px;
-    color: var(--Colors-blue1100, #063643);
-    font-family: Inter;
-    font-size: 11.916px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
-    letter-spacing: 0.119px;
-}
-
-.estrelamob{
-    width: 13.157px;
-    height: 13.24px;
-    flex-shrink: 0;
-}
-
-.avaliacaoneymar{
-    display: flex;
-    flex-direction: row;
-    margin-top: 33px;
-    align-items: center;
-    justify-content: center;
-    position: relative;
-    bottom: 27px;
-}
-
-.avaliacaojose{
-    display: flex;
-    flex-direction: row;
-    margin-top: 33px;
-    align-items: center;
-    justify-content: center;
-    position: relative;
-    bottom: 37px;
-}
-
-.botoes-carrossel{
-    display: flex;
-    flex-direction: row-reverse;
-    align-items: center;
-    justify-content: center;
-    gap: 40px;
-}
-
-#botaoanterior1{
-    border: none;
-    outline: none; 
-    background: none;
-}
-
-
-#botaoposterior1{
-    border: none;
-    outline: none; 
-    background: none; 
-    visibility: hidden;
-}
-
-.numerocarrossel{
-    color: #063643;
-    font-family: Poppins;
-    font-size: 18px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: 30px; /* 166.667% */
-    letter-spacing: 0.18px;
-}
-
-#botaoanterior2{
-    border: none;
-    outline: none; 
-    background: none;
-}
-
-
-#botaoposterior2{
-    border: none;
-    outline: none; 
-    background: none; 
-}
-
-#botaoanterior3{
-    border: none;
-    outline: none; 
-    background: none;
-}
-
-
-#botaoposterior3{
-    border: none;
-    outline: none; 
-    background: none; 
-    visibility: hidden;
-}
-
-#slidercontmob{
-    display: flex;
-}
-
-.sliderMob {
-    width: 355.42px; 
-    flex-shrink: 0;  
-}

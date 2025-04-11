@@ -218,3 +218,67 @@ btnAvalList.forEach((btnAval) => {
     });
 });
 
+
+document.addEventListener('DOMContentLoaded', function() {
+    const sliderContMob = document.getElementById('slidercontmob');
+    const slidersMob = document.querySelectorAll('.sliderMob');
+    const numSlidersMob = slidersMob.length;
+    let currentSliderMob = 0;
+    const sliderWidthMob = 355.42; //largura de cada slider mobile
+
+    function showSliderMob(n) {
+        currentSliderMob = (n + numSlidersMob) % numSlidersMob;
+        const translateXValue = -currentSliderMob * sliderWidthMob;
+        sliderContMob.style.transform = `translateX(${translateXValue}px)`;
+
+        updateMobileButtons();
+        updateMobileCarouselNumber();
+    }
+
+    function updateMobileButtons() {
+        document.querySelectorAll('.botoes-carrossel').forEach((container, index) => {
+            const nextButton = container.querySelector('.btnFrente');
+            const prevButton = container.querySelector('.btnTras');
+
+            if (prevButton && nextButton) {
+                if (currentSliderMob === 0) {
+                    prevButton.style.visibility = 'hidden';
+                    nextButton.style.visibility = 'visible';
+                } else if (currentSliderMob === numSlidersMob - 1) {
+                    prevButton.style.visibility = 'visible';
+                    nextButton.style.visibility = 'hidden';
+                } else {
+                    prevButton.style.visibility = 'visible';
+                    nextButton.style.visibility = 'visible';
+                }
+            }
+        });
+    }
+
+    function updateMobileCarouselNumber() {
+        document.querySelectorAll('.botoes-carrossel').forEach((container, index) => {
+            const numberDisplay = container.querySelector('.numerocarrossel');
+            if (numberDisplay) {
+                numberDisplay.textContent = currentSliderMob + 1;
+            }
+        });
+    }
+
+    document.querySelectorAll('.botoes-carrossel').forEach(container => {
+        const nextButton = container.querySelector('.btnFrente');
+        const prevButton = container.querySelector('.btnTras');
+
+        if (prevButton) {
+            prevButton.addEventListener('click', function() {
+                showSliderMob(currentSliderMob - 1);
+            });
+        }
+
+        if (nextButton) {
+            nextButton.addEventListener('click', function() {
+                showSliderMob(currentSliderMob + 1);
+            });
+        }
+    });
+    showSliderMob(0);
+});

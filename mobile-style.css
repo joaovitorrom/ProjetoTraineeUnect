@@ -9,34 +9,39 @@
         padding-top: 33px;
         background-color: #E2F5FA;
     }
-    
-    #cabecalhoMobile{
+
+    #cabecalhoMobile {
         display: inline-flex;
         padding: 18px 143px 18px 17px;
         align-items: center;
         gap: 93px;
         background: #F8F8FF;
-        position: relative; /* importante! */
-        z-index: 2; /* na frente */
+        position: relative;
+        /* importante! */
+        z-index: 2;
+        /* na frente */
     }
 
-    #cDO{
-        display: none;
-    }
-    #lDO{
+    #cDO {
         display: none;
     }
 
-    
-    
-    #elipse{
+    #lDO {
+        display: none;
+    }
+
+
+
+    #elipse {
         margin-left: 15px;
         margin-top: -51px;
-        position: relative; /* ou absolute, dependendo do layout */
-        z-index: 1; /* atrás */
+        position: relative;
+        /* ou absolute, dependendo do layout */
+        z-index: 1;
+        /* atrás */
     }
-    
-    #tituloContato{
+
+    #tituloContato {
         width: 218px;
         color: var(--Colors-blue1100, #063643);
         font-family: Inter;
@@ -49,9 +54,9 @@
         margin-left: 33px;
         z-index: 3;
         margin-top: 16px;
-}
+    }
 
-    #imgDog{
+    #imgDog {
         width: 331px;
         height: 120px;
         margin-left: 39px;
@@ -59,8 +64,8 @@
         bottom: 230px;
         z-index: 3;
     }
-    
-    #btnCtt{
+
+    #btnCtt {
         display: flex;
         width: 169px;
         height: 40px;
@@ -88,7 +93,7 @@
         color: #0F637A;
     }
 
-    #titQuem{
+    #titQuem {
         color: var(--Colors-blue1100, #063643);
         text-align: center;
         font-family: Poppins;
@@ -99,52 +104,54 @@
         margin-top: 25px;
     }
 
-    #logoQuemMob{
+    #logoQuemMob {
         width: 167px;
         height: 102.567px;
         flex-shrink: 0;
         margin-top: 15.59px;
     }
-    
-    #pQuem{
+
+    #pQuem {
         color: var(--Colors-blue1100, #063643);
         text-align: center;
         font-family: "Open Sans";
         font-size: 14px;
         font-style: normal;
         font-weight: 400;
-        line-height: 20px; /* 142.857% */
+        line-height: 20px;
+        /* 142.857% */
         letter-spacing: 0.28px;
         width: 353px;
         height: 69px;
         margin-top: 35.43px;
     }
-    
-    #saidaQuem{
+
+    #saidaQuem {
         color: var(--Colors-blue1100, #063643);
         text-align: center;
         font-family: "Open Sans";
         font-size: 16px;
         font-style: normal;
         font-weight: 700;
-        line-height: 20px; /* 125% */
+        line-height: 20px;
+        /* 125% */
         letter-spacing: 0.32px;
         margin-top: 15px;
     }
 
-    #itensQuem{
+    #itensQuem {
         display: flex;
         align-items: center;
         flex-direction: column;
         position: relative;
-            bottom: 205px;
-            height: 356px;
-            width: 100vw;
-            background-image: url(assets/images/fundoAnimaisQuem.svg);
-            background-color: #8ad3e6;
-        }
+        bottom: 205px;
+        height: 356px;
+        width: 100vw;
+        background-image: url(assets/images/fundoAnimaisQuem.svg);
+        background-color: #8ad3e6;
+    }
 
-    #itensNos{
+    #itensNos {
         background-image: url(assets/images/fundoAnimaisQuem.svg);
         background-color: #63B3C9;
         height: 328.082px;
@@ -155,8 +162,8 @@
         position: relative;
         bottom: 205px;
     }
-    
-    #titNos{
+
+    #titNos {
         color: var(--Colors-blue1100, #063643);
         text-align: center;
         font-family: Inter;
@@ -164,26 +171,27 @@
         font-style: normal;
         font-weight: 700;
         line-height: normal;
-        width: 353px;   
+        width: 353px;
         height: 46px;
         margin-top: 27px;
     }
 
-    #textNos{
+    #textNos {
         color: var(--Colors-blue1100, #063643);
         text-align: center;
         font-family: "Open Sans";
         font-size: 14px;
         font-style: normal;
         font-weight: 400;
-        line-height: 20px; /* 142.857% */
+        line-height: 20px;
+        /* 142.857% */
         letter-spacing: 0.28px;
         width: 353px;
         height: 50px;
         margin-top: 37px;
     }
 
-    #btnNos{
+    #btnNos {
         border-radius: 2.191px;
         background: #F8F8FF;
         border: none;
@@ -198,18 +206,18 @@
         line-height: normal;
         margin-top: 19.52px;
     }
-    
-    #btnNos:hover{
+
+    #btnNos:hover {
         background: #063643;
         color: #F8F8FF;
     }
 
-    #gatoNos{
+    #gatoNos {
         margin-left: 210px;
         position: relative;
         top: 13.48px;
     }
-    
+
     /* Início Nossos Profissionais */
     #nossosProMobile {
         position: relative;
@@ -221,7 +229,7 @@
         background: #F8F8FF;
         bottom: 100px;
     }
-    
+
     /* Tipografia */
     #tituloDivPro {
         color: #063643;
@@ -233,7 +241,7 @@
         top: -70px;
         left: 70px;
     }
-    
+
     .tipoNomesPro {
         color: #063643;
         font-family: Inter;
@@ -242,7 +250,7 @@
         font-weight: 500;
         line-height: normal;
     }
-    
+
     .tipoCargo {
         color: #063643;
         font-family: Inter;
@@ -251,6 +259,7 @@
         font-weight: 400;
         line-height: normal;
     }
+
     /* Tipografia */
 
     /* Posicionamento */
@@ -382,14 +391,15 @@
         left: 253px;
         padding-bottom: 8px;
     }
+
     /* Posicionamento */
     /* Fim Nossos Profissionais */
-    
-    #rodmob{
+
+    #rodmob {
         background-color: #063643;
     }
 
-    .tituloRodMob{
+    .tituloRodMob {
         color: var(--Colors-blue1100, #063643);
         font-family: Poppins;
         font-size: 12.691px;
@@ -401,7 +411,7 @@
         margin-top: 10px;
     }
 
-    .textoRodMob{
+    .textoRodMob {
         color: var(--Colors-blue1100, #063643);
         font-family: Poppins;
         font-size: 12px;
@@ -413,7 +423,7 @@
         margin-top: 10px;
     }
 
-    #brancorodape{
+    #brancorodape {
         background-color: white;
         height: 144px;
         width: 100vw;
@@ -422,24 +432,24 @@
         gap: 42px;
     }
 
-    #texto1{
+    #texto1 {
         margin-left: 29px;
         margin-top: 10px;
     }
 
-    #texto2{
+    #texto2 {
         margin-left: -19px;
         margin-top: 10px
     }
 
 
-    #posRedMob{
+    #posRedMob {
         margin-left: 67px;
         margin-bottom: 35px;
         margin-top: 35px;
     }
 
-    #posMobCont{
+    #posMobCont {
         height: 529px;
         width: 100vw;
         background-color: #FAFDFF;
@@ -448,22 +458,22 @@
         flex-direction: column;
         align-items: center;
     }
-    
-    #itensMobCont{
+
+    #itensMobCont {
         margin-top: 18px;
         flex-direction: column;
         display: flex;
         align-items: center;
     }
-    
-    #inputsMobCont{
+
+    #inputsMobCont {
         display: flex;
         flex-direction: column;
         gap: 16px;
         margin-top: 19px;
     }
-    
-    #h1MobCont{
+
+    #h1MobCont {
         color: var(--Colors-blue1100, #063643);
         font-family: Inter;
         font-size: 24px;
@@ -471,8 +481,8 @@
         font-weight: 700;
         line-height: normal;
     }
-    
-    .labelMob{
+
+    .labelMob {
         color: var(--Colors-blue1100, #063643);
         font-family: Inter;
         font-size: 13.1px;
@@ -480,8 +490,8 @@
         font-weight: 700;
         line-height: normal;
     }
-    
-    #mobNome{
+
+    #mobNome {
         width: 340.6px;
         height: 39.3px;
         border-radius: 5.24px;
@@ -489,10 +499,10 @@
         box-shadow: 0px 1.31px 1.31px 0px rgba(0, 0, 0, 0.15);
         position: relative;
         bottom: 12px;
-        caret-color: transparent; 
+        caret-color: transparent;
         padding-left: 8px;
     }
-    
+
     #mobNome:focus {
         outline: none;
         border-radius: 8px;
@@ -500,7 +510,7 @@
         box-shadow: 0px 2px 4px 0px rgba(6, 54, 67, 0.15);
     }
 
-    #mobSobren{
+    #mobSobren {
         width: 340.6px;
         height: 39.3px;
         border-radius: 5.24px;
@@ -508,7 +518,7 @@
         box-shadow: 0px 1.31px 1.31px 0px rgba(0, 0, 0, 0.15);
         position: relative;
         bottom: 12px;
-        caret-color: transparent; 
+        caret-color: transparent;
         padding-left: 8px;
     }
 
@@ -518,8 +528,8 @@
         border: 2px solid #063643;
         box-shadow: 0px 2px 4px 0px rgba(6, 54, 67, 0.15);
     }
-    
-    #mobEmail{
+
+    #mobEmail {
         width: 340.6px;
         height: 39.3px;
         border-radius: 5.24px;
@@ -527,7 +537,7 @@
         box-shadow: 0px 1.31px 1.31px 0px rgba(0, 0, 0, 0.15);
         position: relative;
         bottom: 12px;
-        caret-color: transparent; 
+        caret-color: transparent;
         padding-left: 8px;
     }
 
@@ -537,8 +547,8 @@
         border: 2px solid #063643;
         box-shadow: 0px 2px 4px 0px rgba(6, 54, 67, 0.15);
     }
-    
-    #mobMens{
+
+    #mobMens {
         width: 340.6px;
         height: 78.6px;
         border-radius: 5.24px;
@@ -546,11 +556,11 @@
         box-shadow: 0px 1.31px 1.31px 0px rgba(0, 0, 0, 0.15);
         position: relative;
         bottom: 12px;
-        caret-color: transparent; 
+        caret-color: transparent;
         padding-left: 8px;
         padding-bottom: 50px;
     }
-    
+
     #mobMens:focus {
         outline: none;
         border-radius: 8px;
@@ -558,7 +568,7 @@
         box-shadow: 0px 2px 4px 0px rgba(6, 54, 67, 0.15);
     }
 
-    #btnMobCont{
+    #btnMobCont {
         display: flex;
         width: 147.35px;
         height: 56.28px;
@@ -584,3 +594,167 @@
     }
 }
 
+
+.slider-viewport {
+    width: 355.42px;
+    overflow: hidden;
+    position: relative;
+    left: 19px;
+    bottom: 52px;
+  }
+
+
+.centraltitulo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.tituloslider1 {
+    width: 164px;
+    height: 14px;
+    color: var(--Colors-blue1100, #063643);
+    font-family: Poppins;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.avaliacaocarlos {
+    display: flex;
+    flex-direction: row;
+    margin-top: 33px;
+    align-items: center;
+    justify-content: center;
+}
+
+.fotocarlos {
+    width: 53.436px;
+    height: 52.959px;
+}
+
+.campocarlos{
+    height: 67px;
+    margin-left: 19px;
+}
+
+#slidercontmob{
+    display: flex;
+    flex-direction: row;
+}
+
+.nomecarlos{
+    color: var(--Colors-blue1100, #063643);
+    font-family: Inter;
+    font-size: 11.916px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.119px;
+}
+
+.textocarlos{
+    width: 283px;
+    color: var(--Colors-blue1100, #063643);
+    font-family: Inter;
+    font-size: 11.916px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.119px;
+}
+
+.estrelamob{
+    width: 13.157px;
+    height: 13.24px;
+    flex-shrink: 0;
+}
+
+.avaliacaoneymar{
+    display: flex;
+    flex-direction: row;
+    margin-top: 33px;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    bottom: 27px;
+}
+
+.avaliacaojose{
+    display: flex;
+    flex-direction: row;
+    margin-top: 33px;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    bottom: 37px;
+}
+
+.botoes-carrossel{
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+}
+
+#botaoanterior1{
+    border: none;
+    outline: none; 
+    background: none;
+}
+
+
+#botaoposterior1{
+    border: none;
+    outline: none; 
+    background: none; 
+    visibility: hidden;
+}
+
+.numerocarrossel{
+    color: #063643;
+    font-family: Poppins;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 30px; /* 166.667% */
+    letter-spacing: 0.18px;
+}
+
+#botaoanterior2{
+    border: none;
+    outline: none; 
+    background: none;
+}
+
+
+#botaoposterior2{
+    border: none;
+    outline: none; 
+    background: none; 
+}
+
+#botaoanterior3{
+    border: none;
+    outline: none; 
+    background: none;
+}
+
+
+#botaoposterior3{
+    border: none;
+    outline: none; 
+    background: none; 
+    visibility: hidden;
+}
+
+#slidercontmob{
+    display: flex;
+}
+
+.sliderMob {
+    width: 355.42px; 
+    flex-shrink: 0;  
+}

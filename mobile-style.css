@@ -88,7 +88,7 @@
         bottom: 225px;
     }
 
-    #btnCtt:hover {
+    #btnCtt:active {
         background-color: #8ad3e6;
         color: #0F637A;
     }
@@ -207,7 +207,7 @@
         margin-top: 19.52px;
     }
 
-    #btnNos:hover {
+    #btnNos:active {
         background: #063643;
         color: #F8F8FF;
     }
@@ -588,7 +588,7 @@
     }
 
 
-    #btnMobCont:hover {
+    #btnMobCont:active {
         border-radius: 8px;
         background: #063643;
     }

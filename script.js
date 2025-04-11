@@ -31,6 +31,18 @@ botaoSobre.addEventListener("click", (event) => {
         behavior: "smooth"
     });
 });
+
+botaoContato.addEventListener("click", (event) => {
+    event.preventDefault(); // Evita qualquer comportamento padrão do botão
+
+    let contato = document.getElementById("entreContato"); // Pega a div de Quem Somos
+    let headerHeight = 182.17; // Altura do cabeçalho
+
+    window.scrollTo({
+        top: contato.offsetTop - headerHeight, // Move a div para logo abaixo do cabeçalho
+        behavior: "smooth"
+    });
+});
 // Fim botões de navegação da página
 
 // Início botões de transição do carrossel
@@ -101,6 +113,7 @@ botao3.addEventListener("click", () => {
 });
 // Fim botões de transição do carrossel
 
+// Carrossel Avaliações 
 document.addEventListener('DOMContentLoaded', function() {
     const sliderContainer = document.querySelector('.sliderContainer');
     const slides = document.querySelectorAll('.slider');
@@ -165,4 +178,107 @@ document.addEventListener('DOMContentLoaded', function() {
     
     // Inicializa o carrossel
     showSlide(0);
+});
+
+// Botões do carrossel de avaliacoes
+
+
+const btnAtrasList = document.querySelectorAll(".btnAtras");
+const btnAvalList = document.querySelectorAll(".btnAval");
+
+btnAtrasList.forEach((btnAtras) => {
+    const img = btnAtras.querySelector("img");
+
+    btnAtras.addEventListener("mousedown", () => {
+        btnAtras.style.backgroundColor = "#063643";
+        btnAtras.style.borderColor = "#063643";
+        img.src = "assets/images/prevclickbranco.svg";
+    });
+
+    btnAtras.addEventListener("mouseup", () => {
+        btnAtras.style.backgroundColor = "";
+        btnAtras.style.borderColor = "";
+        img.src = "assets/images/setaesquerda.svg";
+    });
+});
+
+btnAvalList.forEach((btnAval) => {
+    const image = btnAval.querySelector("img");
+
+    btnAval.addEventListener("mousedown", () => {
+        btnAval.style.backgroundColor = "#063643";
+        btnAval.style.borderColor = "#063643";
+        image.src = "assets/images/nextclickbranco.svg";
+    });
+
+    btnAval.addEventListener("mouseup", () => {
+        btnAval.style.backgroundColor = "";
+        btnAval.style.borderColor = "";
+        image.src = "assets/images/setadireita.svg";
+    });
+});
+
+
+document.addEventListener('DOMContentLoaded', function() {
+    const sliderContMob = document.getElementById('slidercontmob');
+    const slidersMob = document.querySelectorAll('.sliderMob');
+    const numSlidersMob = slidersMob.length;
+    let currentSliderMob = 0;
+    const sliderWidthMob = 355.42; //largura de cada slider mobile
+
+    function showSliderMob(n) {
+        currentSliderMob = (n + numSlidersMob) % numSlidersMob;
+        const translateXValue = -currentSliderMob * sliderWidthMob;
+        sliderContMob.style.transform = `translateX(${translateXValue}px)`;
+
+        updateMobileButtons();
+        updateMobileCarouselNumber();
+    }
+
+    function updateMobileButtons() {
+        document.querySelectorAll('.botoes-carrossel').forEach((container, index) => {
+            const nextButton = container.querySelector('.btnFrente');
+            const prevButton = container.querySelector('.btnTras');
+
+            if (prevButton && nextButton) {
+                if (currentSliderMob === 0) {
+                    prevButton.style.visibility = 'hidden';
+                    nextButton.style.visibility = 'visible';
+                } else if (currentSliderMob === numSlidersMob - 1) {
+                    prevButton.style.visibility = 'visible';
+                    nextButton.style.visibility = 'hidden';
+                } else {
+                    prevButton.style.visibility = 'visible';
+                    nextButton.style.visibility = 'visible';
+                }
+            }
+        });
+    }
+
+    function updateMobileCarouselNumber() {
+        document.querySelectorAll('.botoes-carrossel').forEach((container, index) => {
+            const numberDisplay = container.querySelector('.numerocarrossel');
+            if (numberDisplay) {
+                numberDisplay.textContent = currentSliderMob + 1;
+            }
+        });
+    }
+
+    document.querySelectorAll('.botoes-carrossel').forEach(container => {
+        const nextButton = container.querySelector('.btnFrente');
+        const prevButton = container.querySelector('.btnTras');
+
+        if (prevButton) {
+            prevButton.addEventListener('click', function() {
+                showSliderMob(currentSliderMob - 1);
+            });
+        }
+
+        if (nextButton) {
+            nextButton.addEventListener('click', function() {
+                showSliderMob(currentSliderMob + 1);
+            });
+        }
+    });
+    showSliderMob(0);
 });
